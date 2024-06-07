@@ -31,13 +31,13 @@ You need to write the following commands on the terminal screen(in vscode) so th
   npm start
 ```
 
-Or,
+- Or,
 
 ```sh
   npm run start
 ```
 
-Or,
+- Or,
 
 ```sh
   npx parcel public/index.html
