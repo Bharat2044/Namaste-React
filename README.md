@@ -28,6 +28,12 @@ You need to write the following commands on the terminal screen(in vscode) so th
 ### Start the Server
 
 ```sh
+  npm start
+```
+
+Or,
+
+```sh
   npm run start
 ```
 
