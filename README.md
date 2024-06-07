@@ -8,22 +8,32 @@
 ## 🔥 **Clone this Repository**
 
 You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
+
 ```bash
   git clone "https://github.com/Bharat2044/Namaste-React.git"
 ```
 
-Go to the project directory
-```bash
+### Go to the Project Directory
+
+```sh
   cd Namaste-React
 ```
 
-Install dependencies
-```bash
+### Install dependencies
+
+```sh
   npm install
 ```
 
-Start the server
-```bash
+### Start the Server
+
+```sh
+  npm run start
+```
+
+Or,
+
+```sh
   npx parcel public/index.html
 ```
 
@@ -32,6 +42,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 <br />
 
 ## 🎨 **Contents**
+
 This repository contains a `Collection of Codes, Assignments, Assignments Solutions & Class Notes`, which help you understand the concepts of React.js.
 
 ## 📚 [_Episode 01 - Inception_](./Episode%2001%20-%20Inception/)
