@@ -1,3 +1,6 @@
+# _Episode 03 - Laying the Foundation_
+
+
 ## Create a `Header Component` from scratch using `Functional Component` with JSX
 - Add a `Logo on Left`
 - Add a `search bar in middle`
