@@ -57,7 +57,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(Title());
 // root.render(<Title />);
 root.render(<HeadingComponent />);
-
+// root.render(HeadingComponent());
 
 
 
