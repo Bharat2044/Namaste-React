@@ -2,15 +2,17 @@
 
 ## Ques): Is `JSX` mandatory for React?
 **Ans:** `JSX` is an Extension Syntax that allows writing HTML and Javascript together easily in React and is used to create React elements. These elements are then rendered to the React DOM. Each JSX element is just to make use of React easy and for calling React.createElement(component, props, …children) with less work. So, anything that is done with JSX can also be done with just plain JavaScript. So `JSX` is not mandatory but is used for writing better and clean code instead of writing code using `React.CreateElement`.
-#### Example of `JSX`
+#### Example of `JSX`:
 ```js
   const sample = <h2>Greetings</h2>;
 ```
 
 
 ## Ques): Is `ES6` mandatory for React?
-**Ans:** `ES6` is not mandatory for `React` but is highly recommendable. The latest projects created on React rely a lot on ES6. React uses ES6, and you should be familiar with some of the new features like: Classes, Arrow Functions, Variables(let, const).
-ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015.
+**Ans:** `ES6` is not mandatory for `React` but is highly recommendable. The latest projects created on React rely a lot on ES6.<br/> 
+React uses ES6, and you should be familiar with some of the new features like: Classes, Arrow Functions, Variables(let, const).
+ES6 stands for ECMAScript 6.<br/> 
+ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015.
 
 
 ## Ques): `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in `JSX`.
@@ -19,7 +21,7 @@ ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, a
 The `{}` can embed a javascript expression or a variable or React element inside it.
 - `<TitleComponent/>` : This value represents a Component that is basically returning Some JSX value. In simple terms `TitleComponent` a function that is returning a JSX value. If component is written inside the `{<  />}` expression.
 - `<TitleComponent></TitleComponent>` :  `<TitleComponent />` and `<TitleComponent></TitleComponent>` are equivalent only when `< TitleComponent />` has no child components. The opening and closing tags are created to include the child components.
-#### Example
+#### Example:
 ```js
   <TitleComponent>
       <FirstChildComponent />
@@ -32,7 +34,7 @@ The `{}` can embed a javascript expression or a variable or React element inside
 ## Ques): How can I write `comments` in JSX?
 **Ans:** JSX comments are written as follows:
 - `{/*  */}` - for single or multiline comments
-#### Example
+#### Example:
 ```js
   {/* A JSX comment */}
   {/* 
@@ -44,9 +46,9 @@ The `{}` can embed a javascript expression or a variable or React element inside
 ```
 
 ## Ques): What is `<React.Fragment></React.Fragment>` and `<></>`?
-**Ans:** `<React.Fragment></React.Fragment>` is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
+**Ans:** `<React.Fragment></React.Fragment>` is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.<br/>
 `<></>` is the shorthand tag for `React.Fragment`. The only difference between them is that the shorthand version does not support the key attribute.
-#### Example
+#### Example:
 ```js
   return (
         <React.Fragment>
@@ -69,8 +71,8 @@ The `{}` can embed a javascript expression or a variable or React element inside
 
 
 ## Ques): What is `Reconciliation` in React?
-**Ans:** `Reconciliation` is the process through which React updates the Browser DOM and makes React work faster. React use a `diffing algorithm` so that component updates are predictable and faster. React would first calculate the difference between the real DOM and the copy of DOM (Virtual DOM) when there's an update of components.
-React stores a copy of Browser DOM which is called `Virtual DOM`. When we make changes or add data, React creates a new Virtual DOM and compares it with the previous one. Comparison is done by `Diffing Algorithm`.
+**Ans:** `Reconciliation` is the process through which React updates the Browser DOM and makes React work faster. React use a `diffing algorithm` so that component updates are predictable and faster. React would first calculate the difference between the real DOM and the copy of DOM (Virtual DOM) when there's an update of components.<br/>
+React stores a copy of Browser DOM which is called `Virtual DOM`. When we make changes or add data, React creates a new Virtual DOM and compares it with the previous one. Comparison is done by `Diffing Algorithm`.<br/>
 React compares the Virtual DOM with Real DOM. It finds out the changed nodes and updates only the changed nodes in Real DOM leaving the rest nodes as it is. This process is called Reconciliation.
 
 
@@ -84,9 +86,9 @@ Because Fiber is asynchronous, React can:
 
 
 ## Ques): Why do we need `keys` in React?
-**Ans:** A `key` is a special attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are unique Identifier used to give an identity to the elements in the lists.
+**Ans:** A `key` is a special attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are unique Identifier used to give an identity to the elements in the lists.<br/>
 Keys should be given to the elements within the array to give the elements a stable identity.
-#### Example
+#### Example:
 ```html
   <li key={0}>1</li>
   <li key={1}>2</li>
@@ -95,26 +97,26 @@ Keys should be given to the elements within the array to give the elements a sta
 
 
 ## Ques): Can we use `index as keys` in React?
-**Ans:** Yes, we can use the `index as keys`, but it is not considered as a good practice to use them because if the order of items may change. This can negatively impact performance and may cause issues with component state.
+**Ans:** Yes, we can use the `index as keys`, but it is not considered as a good practice to use them because if the order of items may change. This can negatively impact performance and may cause issues with component state.<br/>
 Keys are taken from each object which is being rendered. There might be a possibility that if we modify the incoming data react may render them in unusual order.
 
 
 ## Ques): What is `props in React`? Ways to.
 **Ans:** props stands for properties. Props are arguments passed into React components. props are used in React to pass data from one component to another (from a parent component to a child component(s)). They are useful when you want the flow of data in your app to be dynamic.
-#### Example
-```
-function App() {
-  return (
-    <div className="App">
-      <Tool name="Chetan Nada" tool="Figma"/> // name and tool are props
-    </div>
-  )
-}
+#### Example:
+```js
+  function App() {
+    return (
+      <div className="App">
+        <Tool name="Chetan Nada" tool="Figma"/> // name and tool are props
+      </div>
+    )
+  }
 ```
 
 ## Ques): What is `Config Driven UI`?
-**Ans:** `Config Driven UI` are based on the configurations of the data application receives. It is rather a good practice to use config driven UIs to make application for dynamic. 
-It is a very common & basic approach to interact with the User. It provides a generic interface to develop things which help your project scale well. It saves a lot of development time and effort.
+**Ans:** `Config Driven UI` are based on the configurations of the data application receives. It is rather a good practice to use config driven UIs to make application for dynamic. <br/>
+It is a very common & basic approach to interact with the User. It provides a generic interface to develop things which help your project scale well. It saves a lot of development time and effort.<br/>
 A typical login form, common in most of the Apps. Most of these forms also get frequent updates as the requirements increase in terms of Form Validations, dropdown options,.. or design changes.
 
 
