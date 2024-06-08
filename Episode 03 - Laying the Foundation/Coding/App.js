@@ -48,7 +48,7 @@ const HeadingComponent = () => (
       <Title />
       <h1 className="heaidng">Namaste React Fucntional Component</h1>
     </div>
-
+ 
     <div id="container-2"></div>
   </>
 );
