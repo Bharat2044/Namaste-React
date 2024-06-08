@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(204, 203, 203);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo, .user-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 20rem;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
