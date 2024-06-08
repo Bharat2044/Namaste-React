@@ -7,7 +7,7 @@ import ReactDOM from "react-dom/client";
 const heading = React.createElement("h1", { id: "heading" }, "Namasate React 🚀");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
-*/
+*/ 
 
 // create heading element using JSX
 // JSX => React.createElement => ReactElement(Object) => HTMLElement(render) => DOM(Browser)
@@ -57,8 +57,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(Title());
 // root.render(<Title />);
 root.render(<HeadingComponent />);
-
-
 
 
 
