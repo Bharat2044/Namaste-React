@@ -1,4 +1,4 @@
-## Episode 3 - Laying the Foundation 
+## Episode 03 - Laying the Foundation 
 
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 
