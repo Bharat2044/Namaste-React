@@ -1,4 +1,4 @@
-# _Chapter 03 - Laying the Foundation_
+# _Episode 03 - Laying the Foundation_
 
 
 ## Topics
