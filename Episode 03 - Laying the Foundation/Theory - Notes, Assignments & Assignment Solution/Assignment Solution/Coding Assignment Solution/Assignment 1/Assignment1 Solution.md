@@ -7,7 +7,7 @@
 
 
 
-## Q1): Create a Nested header Element using React.createElement(h1,h2,h3 inside a div with class "title")
+## Q1): Create a `Nested header Element` using `React.createElement`(h1,h2,h3 inside a div with class "title")
 ```js
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -23,7 +23,7 @@ root.render(header);
 ```
 
 
-## Q2): Create the same element using JSX
+## Q2): Create the `same element using JSX`
 ```js
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -41,7 +41,7 @@ root.render(header);
 ```
 
 
-## Q3): Create a functional component of the same with JSX
+## Q3): Create a `functional component of the same with JSX`
 ```js
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -59,7 +59,7 @@ root.render(<Header />);
 ```
 
 
-## Q4): Pass attribute into the tag in JSX
+## Q4): `Pass attribute` into the tag in `JSX`
 ```js
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -77,7 +77,7 @@ root.render(<Header />);
 ```
 
 
-## Q5): Composition of Component (Add a component inside another)
+## Q5): `Composition of Component` (Add a component inside another)
 ```js
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -100,7 +100,7 @@ root.render(<Header />);
 ```
 
 
-## Q6): {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX.
+## Q6): `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in JSX.
 ```js
 import React from "react";
 import ReactDOM from "react-dom/client";
