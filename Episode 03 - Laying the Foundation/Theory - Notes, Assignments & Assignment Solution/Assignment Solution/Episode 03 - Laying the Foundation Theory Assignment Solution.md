@@ -1,4 +1,4 @@
-# Chapter 03 - Laying the Foundation
+# _Episode 03 - Laying the Foundation_
 
 ## Ques): What is `JSX`?
 **Ans:** JSX stands for JavaScript XML.<br/>
