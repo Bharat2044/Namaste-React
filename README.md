@@ -49,10 +49,42 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 ## 🎨 **Contents**
 
-This repository contains a `Collection of Codes, Assignments, Assignments Solutions & Class Notes`, which help you understand the concepts of React.js.
+**This repository contains a `Collection of Codes, Assignments, Assignments Solutions & Class Notes`, which help you understand the concepts of React.js.**
 
 ## 📚 [_Episode 01 - Inception_](./Episode%2001%20-%20Inception/)
+- 💻 [_Coding_](./Episode%2001%20-%20Inception/Coding/)
+- 📘 _Assignment_
+  - 📝 [_PDF File_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment/Episode%2001%20-%20Inception%20Assignment.pdf)
+  - 📝 [_Readme File_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment/Episode%2001%20-%20Inception%20Assignment.md)
+- 📖 [_Theory Assignment Solution_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2001%20-%20Inception%20Theory%20Assignment%20Solution.md)
+- 💻 [_Coding Assignment Solution_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+- 📟 _Digital and Handwritten Notes_
+  - 📟 [_Digital Notes of Live Class_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Notes/Episode%2001%20-%20Inception%20Digital%20Notes.pdf) 
+  - 📝 [_Hand Written Notes of Live Class_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Notes/Episode%2001%20-%20Inception%20HandWritten%20Notes.pdf) 
+
 
 ## 📚 [_Episode 02 - Igniting our App_](./Episode%2002%20-%20Igniting%20our%20App/)
+- 💻 [_Coding_](./Episode%2002%20-%20Igniting%20our%20App/Coding/)
+- 📘 _Assignment_
+  - 📝 [_PDF File_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2002%20-%20Igniting%20our%20App%20Assignment%20.pdf)
+  - 📝 [_Readme File_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2002%20-%20Igniting%20our%20App%20Assignment.md)
+- 📖 [_Theory Assignment Solution_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2002%20-%20Igniting%20our%20App%20Assignment%20Solution.md)
+- 💻 [_Coding Assignment Solution_](./Episode%2002%20-%20Igniting%20our%20App/Coding/)
+- 📟 _Digital and Handwritten Notes_
+  - 📟 [_Digital Notes of Live Class_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2002%20-%20Igniting%20our%20App%20%20Digital%20Notes.pdf) 
+  - 📝 [_Hand Written Notes of Live Class_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2002%20-%20Igniting%20our%20App%20HandWritten%20Notes.pdf) 
+
 
 ## 📚 [_Episode 03 - Laying the Foundation_](./Episode%2003%20-%20Laying%20the%20Foundation/)
+- 💻 [_Coding_](./Episode%2003%20-%20Laying%20the%20Foundation/Coding/)
+- 📘 _Assignment_
+  - 📝 [_PDF File_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2003%20-%20Laying%20the%20Foundation%20Assignment.pdf)
+  - 📝 [_Readme File_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2003%20-%20Laying%20the%20Foundation%20Assignment.md)
+- 📖 [_Theory Assignment Solution_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2003%20-%20Laying%20the%20Foundation%20Theory%20Assignment%20Solution.md)
+- 💻 [_Coding Assignment Solution_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+- 📟 _Digital and Handwritten Notes_
+  - 📟 [_Digital Notes of Live Class_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2003%20-%20Laying%20the%20Foundation%20Digital%20Notes.pdf) 
+  - 📝 [_Hand Written Notes of Live Class_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2003%20-%20Laying%20the%20Foundation%20HandWritten%20Notes.pdf) 
+
+
+## 📚 [_Episode 04 - Talk is Cheap, Show Me the Code_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/)
