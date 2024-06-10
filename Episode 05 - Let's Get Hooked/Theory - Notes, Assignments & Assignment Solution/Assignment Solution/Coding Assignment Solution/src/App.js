@@ -22,7 +22,7 @@ import Footer from "./components/Footer";
  *  - Contact
  */
 
-const AppLayout = () => {
+const App = () => {
   return (
     <div className="app">
       <Header />
@@ -33,4 +33,4 @@ const AppLayout = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout />);
+root.render(<App />);
