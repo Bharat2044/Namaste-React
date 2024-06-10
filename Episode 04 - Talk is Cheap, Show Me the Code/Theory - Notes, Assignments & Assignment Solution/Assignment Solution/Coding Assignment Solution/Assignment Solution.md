@@ -16,6 +16,10 @@
 
 <br/>
 
+# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-01.netlify.app/)
+
+<br/>
+
 ```html
 <!-- index.html -->
 <!DOCTYPE html>
@@ -719,3 +723,8 @@ const RestaurantCard = (props) => {
 
 export default RestaurantCard;
 ```
+
+<br/>
+<br/>
+
+# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-01.netlify.app/)
