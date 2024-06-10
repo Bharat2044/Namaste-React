@@ -1,0 +1,222 @@
+/* Select all CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+/* CSS for scroll-bar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  color: orange;
+  background-color: #d8d6d6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Restaurant Header CSS */
+.header {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+  background-color: #d8d6d6;
+  box-shadow: 0 0 10px rgba(216, 215, 215, 0.1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-items > ul {
+  display: flex;
+}
+
+.nav-items > ul > li {
+  list-style: none;
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0px 12px;
+}
+
+.nav-items > ul > li:hover {
+  color: orange;
+}
+
+/* Restaurant Body CSS */
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.search-box {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #c9c8c8;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.search-box > input {
+  height: 40px;
+  padding: 0px 10px;
+  outline: none;
+  border: none;
+  background-color: #f1f1f1;
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.search-icon {
+  color: #828080;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.restaurant-container {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2%;
+  row-gap: 20px;
+}
+
+.restaurant-card {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(96, 96, 96, 0.1);
+  cursor: pointer;
+}
+
+.restaurant-card:hover {
+  transform: scale(0.99);
+}
+
+.search {
+  padding: 10px;
+}
+
+.restaurant-logo {
+  width: 100%;
+  height: 65%;
+  margin: 0px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.restaurant-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 5px 0px;
+}
+
+.restaurant-details {
+  height: fit-content;
+  padding: 0px 10px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.esa-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0px;
+  margin-right: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating-logo {
+  background-color: green;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  padding: 2px;
+  margin-right: 3px;
+}
+
+.cousine,
+.location {
+  color: #828080;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+/* Footer CSS */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #d8d6d6;
+  box-shadow: 0 0 10px rgba(216, 215, 215, 0.1);
+}
+
+.footer > strong {
+  padding-left: 5px;
+}
+
+.footer > span {
+  margin: 0px 5px;
+  font-size: 20px;
+}
+
+.footer > strong > span {
+  color: orange;
+}
