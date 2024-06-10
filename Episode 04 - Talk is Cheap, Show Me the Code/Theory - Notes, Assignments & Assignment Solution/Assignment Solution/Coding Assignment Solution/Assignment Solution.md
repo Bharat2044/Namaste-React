@@ -728,3 +728,7 @@ export default RestaurantCard;
 <br/>
 
 # [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-01.netlify.app/)
+
+<br/>
+
+![Tasty Trails App](./liveLinkImage.png)
