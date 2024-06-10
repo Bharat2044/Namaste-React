@@ -112,3 +112,19 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code%20HandWritten%20Notes.pdf) 
 
 
+## 📚 [_Episode 05 - Let's Get Hooked_](./Episode%2005%20-%20Let's%20Get%20Hooked/)
+- 💻 **Coding**
+  - 💻 [_Coding_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Coding/)
+- 📒 **Theory**
+  - 📘 Assignment
+    - 📝 [_PDF File_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2005%20-%20Let's%20Get%20Hooked%20Assignment.pdf)
+    - 📝 [_Readme File_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2005%20-%20Let's%20Get%20Hooked%20Assignment.md)
+  - 📔 Assignment Solution
+    - 📖 [_Theory Assignment Solution_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2005%20-%20Let's%20Get%20Hooked%20Theory%20Assignment%20Solution.md)
+    - 💻 [_Coding Assignment Solution_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-2.netlify.app/)
+  - 📟 Digital and Handwritten Notes
+    - 📟 [_Digital Notes of Live Class_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2005%20-%20Let's%20Get%20Hooked%20Digital%20Notes.pdf) 
+    - 📝 [_Hand Written Notes of Live Class_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2005%20-%20Let's%20Get%20Hooked%20HandWritten%20Notes.pdf) 
+
+
