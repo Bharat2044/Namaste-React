@@ -16,7 +16,7 @@
 
 <br/>
 
-# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-01.netlify.app/)
+# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode04.netlify.app/)
 
 <br/>
 
@@ -727,7 +727,7 @@ export default RestaurantCard;
 <br/>
 <br/>
 
-# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-01.netlify.app/)
+# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode04.netlify.app/)
 
 <br/>
 
