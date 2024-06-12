@@ -15,7 +15,7 @@
 
 <br/>
 
-# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-2.netlify.app/)
+# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode05.netlify.app/)
 
 <br/>
 
@@ -818,7 +818,7 @@ export default Footer;
 <br/>
 <br/>
 
-# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-2.netlify.app/)
+# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode05.netlify.app/)
 
 <br/>
 
