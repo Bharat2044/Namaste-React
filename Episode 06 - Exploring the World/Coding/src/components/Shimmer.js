@@ -1,6 +1,4 @@
-import React from "react";
-
-function Shimmer() {
+const Shimmer = () => {
   return (
     <div className="body">
       <div className="shimmer-search-box">
