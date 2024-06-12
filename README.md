@@ -128,3 +128,19 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2005%20-%20Let's%20Get%20Hooked%20HandWritten%20Notes.pdf) 
 
 
+## 📚 [_Episode 06 - Exploring the World_](./Episode%2006%20-%20Exploring%20the%20World/)
+- 💻 **Coding**
+  - 💻 [_Coding_](./Episode%2006%20-%20Exploring%20the%20World/Coding/)
+- 📒 **Theory**
+  - 📘 Assignment
+    - 📝 [_PDF File_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2006%20-%20Exploring%20the%20World%20Assignment.pdf)
+    - 📝 [_Readme File_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2006%20-%20Exploring%20the%20World%20Assignment.md)
+  - 📔 Assignment Solution
+    - 📖 [_Theory Assignment Solution_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2006%20-%20Exploring%20the%20World%20Theory%20Assignment%20Solution.md)
+    - 💻 [_Coding Assignment Solution_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode06.netlify.app/)
+  - 📟 Digital and Handwritten Notes
+    - 📟 [_Digital Notes of Live Class_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2006%20-%20Exploring%20the%20World%20Digital%20Notes.pdf) 
+    - 📝 [_Hand Written Notes of Live Class_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2006%20-%20Exploring%20the%20World%20HandWritten%20Notes.pdf) 
+
+
