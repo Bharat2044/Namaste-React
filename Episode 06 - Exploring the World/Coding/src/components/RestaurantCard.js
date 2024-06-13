@@ -1,5 +1,5 @@
 import { MdStarRate } from "react-icons/md";
-import { IMAGE_CDN_URL } from "../../../../public/common/constants";
+import { RES_IMG_CDN_URL } from "../../../../public/common/constants";
 
 const RestaurantCard = ({
   cloudinaryImageId,
@@ -13,7 +13,7 @@ const RestaurantCard = ({
   return (
     <div className="restaurant-card">
       <img
-        src={IMAGE_CDN_URL + cloudinaryImageId}
+        src={RES_IMG_CDN_URL + cloudinaryImageId}
         alt={name}
         className="restaurant-logo"
       />
