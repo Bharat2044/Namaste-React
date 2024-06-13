@@ -3,7 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import {
   SWIGGY_API_URL,
-  SWIGGY_RESTAURANT_PATH,
+  SWIGGY_REST_API_PATH,
 } from "../../../../public/common/constants";
 
 const Body = () => {
@@ -16,7 +16,7 @@ const Body = () => {
     try {
       const data = await fetch(SWIGGY_API_URL);
       const json = await data.json();
-      const restaurants = eval("json?." + SWIGGY_RESTAURANT_PATH) || [];
+      const restaurants = eval("json?." + SWIGGY_REST_API_PATH) || [];
 
       setRestaurantList(restaurants);
       setFilteredRestaurants(restaurants);
