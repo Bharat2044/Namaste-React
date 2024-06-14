@@ -1,24 +1,24 @@
 import { useState, useEffect } from "react";
 import RestaurantCard from "./RestaurantCard";
-import Shimmer from "./Shimmer";
+import { RestaurantShimmer } from "./Shimmer";
 import {
   SWIGGY_API_URL,
-  SWIGGY_RESTAURANT_PATH,
+  SWIGGY_REST_API_PATH,
 } from "../../../../public/common/constants";
 
 const Body = () => {
-  const [restaurantList, setRestaurantList] = useState([]);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [searchRestaurant, setSearchRestaurant] = useState("");
   const [restaurantName, setRestaurantName] = useState("");
 
-  const fetchData = async () => {
+  const fetchRestaurantsData = async () => {
     try {
       const data = await fetch(SWIGGY_API_URL);
       const json = await data.json();
-      const restaurants = eval("json?." + SWIGGY_RESTAURANT_PATH) || [];
+      const restaurants = eval("json?." + SWIGGY_REST_API_PATH) || [];
 
-      setRestaurantList(restaurants);
+      setListOfRestaurants(restaurants);
       setFilteredRestaurants(restaurants);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -26,11 +26,11 @@ const Body = () => {
   };
 
   useEffect(() => {
-    fetchData();
+    fetchRestaurantsData();
   }, []);
 
   const handleSearch = () => {
-    const filtered = restaurantList.filter((res) =>
+    const filtered = listOfRestaurants.filter((res) =>
       res.info.name.toLowerCase().includes(searchRestaurant.toLowerCase())
     );
 
@@ -39,11 +39,9 @@ const Body = () => {
     setRestaurantName(searchRestaurant);
   };
 
-  console.log("restaurantList:", restaurantList);
-
   // Conditional rendering using ternary operator
-  return restaurantList.length === 0 ? (
-    <Shimmer />
+  return listOfRestaurants.length === 0 ? (
+    <RestaurantShimmer />
   ) : (
     <div className="body">
       <div className="search-box">
@@ -61,10 +59,7 @@ const Body = () => {
       <div className="restaurant-container">
         {filteredRestaurants.length !== 0 ? (
           filteredRestaurants.map((restaurant) => (
-            <RestaurantCard
-              key={restaurant?.info?.id}
-              {...restaurant?.info}
-            />
+            <RestaurantCard key={restaurant?.info?.id} {...restaurant?.info} />
           ))
         ) : (
           <h2>Sorry, we couldn't find any restaurant for "{restaurantName}"</h2>
