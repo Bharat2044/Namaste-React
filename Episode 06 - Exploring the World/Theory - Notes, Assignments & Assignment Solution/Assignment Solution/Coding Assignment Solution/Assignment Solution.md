@@ -393,7 +393,7 @@ import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import {
   SWIGGY_API_URL,
-  SWIGGY_RESTAURANT_PATH,
+  SWIGGY_REST_API_PATH,
 } from "../../../../../../public/common/constants";
 
 const Body = () => {
@@ -406,7 +406,7 @@ const Body = () => {
     try {
       const data = await fetch(SWIGGY_API_URL);
       const json = await data.json();
-      const restaurants = eval("json?." + SWIGGY_RESTAURANT_PATH) || [];
+      const restaurants = eval("json?." + SWIGGY_REST_API_PATH) || [];
 
       setRestaurantList(restaurants);
       setFilteredRestaurants(restaurants);
@@ -502,7 +502,7 @@ export default Shimmer;
 ```js
 /* RestaurantCard.js */
 import { MdStarRate } from "react-icons/md";
-import { IMAGE_CDN_URL } from "../../../../../../public/common/constants";
+import { IMG_CDN_URL } from "../../../../../../public/common/constants";
 
 const RestaurantCard = ({
   cloudinaryImageId,
@@ -516,7 +516,7 @@ const RestaurantCard = ({
   return (
     <div className="restaurant-card">
       <img
-        src={IMAGE_CDN_URL + cloudinaryImageId}
+        src={IMG_CDN_URL + cloudinaryImageId}
         alt={name}
         className="restaurant-logo"
       />
