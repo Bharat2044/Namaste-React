@@ -25,18 +25,16 @@ export const RestaurantShimmer = () => {
 
 export const RestaurantMenuShimmer = () => {
   return (
-    <div className="menu">
-      <div
-        className="shimmer-restaurant-name
-      "
-      ></div>
-      <div className="shimmer-menu"></div>
-      <div className="shimmer-menu"></div>
-      <div className="shimmer-menu"></div>
-      <div className="shimmer-menu"></div>
-      <div className="shimmer-menu"></div>
-      <div className="shimmer-menu"></div>
-      <div className="shimmer-menu"></div>
+    <div className="shimmer-menu">
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
     </div>
   );
 };
