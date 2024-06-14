@@ -1,14 +1,8 @@
-const Shimmer = () => {
+export const RestaurantShimmer = () => {
   return (
     <div className="body">
-      <div className="shimmer-search-box">
-      </div>
+      <div className="shimmer-search-box"></div>
       <div className="restaurant-container">
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
         <div className="shimmer-card"></div>
         <div className="shimmer-card"></div>
         <div className="shimmer-card"></div>
@@ -27,6 +21,22 @@ const Shimmer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Shimmer;
+export const RestaurantMenuShimmer = () => {
+  return (
+    <div className="menu">
+      <div
+        className="shimmer-restaurant-name
+      "
+      ></div>
+      <div className="shimmer-menu"></div>
+      <div className="shimmer-menu"></div>
+      <div className="shimmer-menu"></div>
+      <div className="shimmer-menu"></div>
+      <div className="shimmer-menu"></div>
+      <div className="shimmer-menu"></div>
+      <div className="shimmer-menu"></div>
+    </div>
+  );
+};
