@@ -1,8 +1,8 @@
-.menu {
+.menu, .shimmer-menu {
   width: 60%;
 }
 
-.restaurant-header {
+.restaurant-header, .shimmer-menu .shimmer-card {
   display: flex;
   align-items: center;
   background-color: black;
@@ -57,7 +57,7 @@
   margin-right: 5px;
 }
 
-.menu-items {
+.menu-items, .shimmer-menu .shimmer-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,4 +108,9 @@
   background-color: #E46F20;
   color: white;
   transition: 0.3s;
+}
+
+.shimmer-menu .shimmer-card {
+  background-color: #d7d6d6;
+  height: 200px;
 }
