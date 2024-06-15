@@ -2,35 +2,33 @@
 .about-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 72vh;
+  width: 90%;
+  gap: 40px;
 }
-.about-container .about-left {
-  padding-left: 10px;
-}
+
 .about-container .about-left h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
+
 .about-container .about-left h1 span {
   background-color: #d97919;
   padding: 0 10px;
   border-radius: 15px;
   color: white;
 }
+
 .about-container .about-left h4 {
-  font-size: 25px;
+  font-size: 22px;
   padding-top: 10px;
   font-style: italic;
 }
+
 .about-container .about-left h4 span {
   color: #d97919;
 }
-.about-container .about-right {
-  padding-left: 20px;
-}
+
 .about-container .about-right img {
-  width: 500px;
-  padding-right: 70px;
+  width: 450px;
 }
