@@ -47,6 +47,7 @@
 </html>
 ```
 
+
 ```css
 /* index.css */
 /* Select all CSS */
@@ -326,14 +327,15 @@ body {
 }
 ```
 
+
 ```js
 /* App.js */
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
+import Header from "./src/components/Header";
+import Body from "./src/components/Body";
+import Footer from "./src/components/Footer";
 
 const App = () => {
   return (
@@ -348,6 +350,7 @@ const App = () => {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
 ```
+
 
 ```js
 /* Header.js */
@@ -385,6 +388,7 @@ const Header = () => {
 
 export default Header;
 ```
+
 
 ```js
 /* Body.js */
@@ -499,6 +503,7 @@ function Shimmer() {
 export default Shimmer;
 ```
 
+
 ```js
 /* RestaurantCard.js */
 import { MdStarRate } from "react-icons/md";
@@ -552,6 +557,7 @@ const RestaurantCard = ({
 
 export default RestaurantCard;
 ```
+
 
 ```js
 /* Footer.js */
