@@ -784,7 +784,7 @@ root.render(<RouterProvider router={appRouter} />);
 
 ```js
 // Header.js
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import tastyTrailsLogo from "../../../../../../public/images/tasty-trails-logo.png";
 import { FaCartArrowDown } from "react-icons/fa";
@@ -1203,7 +1203,7 @@ const Contact = () => {
           <textarea placeholder="Type your Message here..." required></textarea>
           <button type="submit">Submit</button>
           {message && (
-            <span>Thanks for contacting FoodFire, We will reply ASAP.</span>
+            <span>Thanks for contacting with TastyTrails, We will reply ASAP.</span>
           )}
         </form>
       </div>
