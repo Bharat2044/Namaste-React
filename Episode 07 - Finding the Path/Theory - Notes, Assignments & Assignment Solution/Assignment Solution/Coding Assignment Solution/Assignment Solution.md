@@ -525,6 +525,18 @@ a, Link {
   width: 80%;
 }
 
+.contact-container .contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container .contact-left img {
+  width: 90%;
+  object-fit: cover;
+}
+
 .contact-container .contact-right {
   display: flex;
   flex-direction: column;
@@ -533,8 +545,7 @@ a, Link {
 }
 
 .contact-container .contact-right h1 {
-  font-size: 36px;
-  margin: 20px;
+  font-size: 3rem;
 }
 
 .contact-container .contact-right form {
@@ -564,7 +575,7 @@ a, Link {
 
 .contact-container .contact-right form button {
   padding: 10px 20px;
-  margin: 10px;
+  margin-top: 10px;
   background-color: darkorange;
   box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
   color: #ffffff;
@@ -586,37 +597,35 @@ a, Link {
 .about-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 72vh;
+  width: 90%;
+  gap: 40px;
 }
-.about-container .about-left {
-  padding-left: 10px;
-}
+
 .about-container .about-left h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
+
 .about-container .about-left h1 span {
   background-color: #d97919;
   padding: 0 10px;
   border-radius: 15px;
   color: white;
 }
+
 .about-container .about-left h4 {
-  font-size: 25px;
+  font-size: 22px;
   padding-top: 10px;
   font-style: italic;
 }
+
 .about-container .about-left h4 span {
   color: #d97919;
 }
-.about-container .about-right {
-  padding-left: 20px;
-}
+
 .about-container .about-right img {
-  width: 500px;
-  padding-right: 70px;
+  width: 450px;
 }
 ```
 
