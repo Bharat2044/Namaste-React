@@ -23,7 +23,7 @@ const Contact = () => {
           <textarea placeholder="Type your Message here..." required></textarea>
           <button type="submit">Submit</button>
           {message && (
-            <span>Thanks for contacting FoodFire, We will reply ASAP.</span>
+            <span>Thanks for contacting with TastyTrails, We will reply ASAP.</span>
           )}
         </form>
       </div>
