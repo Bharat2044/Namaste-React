@@ -1,0 +1,116 @@
+.menu, .shimmer-menu {
+  width: 60%;
+}
+
+.restaurant-header, .shimmer-menu .shimmer-card {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.restaurant-header img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  margin-right: 40px;
+}
+
+.restaurant-header-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.restaurant-header-details h1 {
+  font-size: 20px;
+}
+
+.restaurant-header h3 {
+  color: #bcbcbc;
+}
+
+.restaurant-header p {
+  font-size: 15px;
+  color: rgb(193, 185, 185);
+}
+
+.rating-time {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  gap: 20px;
+}
+
+.restaurant-header .rating-logo {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 2px;
+  margin-right: 5px;
+}
+
+.menu-items, .shimmer-menu .shimmer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px solid rgb(91, 91, 91);
+  gap: 50px;
+}
+
+.menu-items .left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.left .rating span {
+  color: rgb(72, 71, 71);
+}
+
+.menu-items .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items .right img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.right .add-btn {
+  background-color: white;
+  color: green;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  bottom: 10px;
+  transition: background-color 0.3s;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.right .add-btn:hover {
+  background-color: #E46F20;
+  color: white;
+  transition: 0.3s;
+}
+
+.shimmer-menu .shimmer-card {
+  background-color: #d7d6d6;
+  height: 200px;
+}
