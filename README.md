@@ -54,7 +54,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 ## 📚 [_Episode 01 - Inception_](./Episode%2001%20-%20Inception/)
 - 💻 **Coding**
   - 🖥️ [_Coding_](./Episode%2001%20-%20Inception/Coding/)
-- 📒 **Theory**
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment/Episode%2001%20-%20Inception%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment/Episode%2001%20-%20Inception%20Assignment.md)
@@ -69,7 +69,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 ## 📚 [_Episode 02 - Igniting our App_](./Episode%2002%20-%20Igniting%20our%20App/)
 - 💻 **Coding**
   - 💻 [_Coding_](./Episode%2002%20-%20Igniting%20our%20App/Coding/)
-- 📒 **Theory**
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2002%20-%20Igniting%20our%20App%20Assignment%20.pdf)
     - 📝 [_Readme File_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2002%20-%20Igniting%20our%20App%20Assignment.md)
@@ -84,7 +84,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 ## 📚 [_Episode 03 - Laying the Foundation_](./Episode%2003%20-%20Laying%20the%20Foundation/)
 - 💻 **Coding**
   - 💻 [_Coding_](./Episode%2003%20-%20Laying%20the%20Foundation/Coding/)
-- 📒 **Theory**
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2003%20-%20Laying%20the%20Foundation%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2003%20-%20Laying%20the%20Foundation%20Assignment.md)
@@ -99,7 +99,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 ## 📚 [_Episode 04 - Talk is Cheap, Show Me the Code_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/)
 - 💻 **Coding**
   - 💻 [_Coding_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Coding/)
-- 📒 **Theory**
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code%20Assignment.md)
@@ -115,7 +115,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 ## 📚 [_Episode 05 - Let's Get Hooked_](./Episode%2005%20-%20Let's%20Get%20Hooked/)
 - 💻 **Coding**
   - 💻 [_Coding_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Coding/)
-- 📒 **Theory**
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2005%20-%20Let's%20Get%20Hooked%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2005%20-%20Let's%20Get%20Hooked%20Assignment.md)
@@ -131,7 +131,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 ## 📚 [_Episode 06 - Exploring the World_](./Episode%2006%20-%20Exploring%20the%20World/)
 - 💻 **Coding**
   - 💻 [_Coding_](./Episode%2006%20-%20Exploring%20the%20World/Coding/)
-- 📒 **Theory**
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2006%20-%20Exploring%20the%20World%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2006%20-%20Exploring%20the%20World%20Assignment.md)
@@ -149,7 +149,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 ## 📚 [_Episode 07 - Finding the Path_](./Episode%2007%20-%20Finding%20the%20Path/)
 - 💻 **Coding**
   - 💻 [_Coding_](./Episode%2007%20-%20Finding%20the%20Path/Coding/)
-- 📒 **Theory**
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.md)
