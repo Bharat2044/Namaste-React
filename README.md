@@ -181,8 +181,8 @@ This application should now be running on `localhost`. If you want to Fork repos
   - 👨‍💻 [_Coding_](./Episode%2008%20-%20Let's%20Get%20Classy/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
-    - 📝 [_PDF File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.pdf)
-    - 📝 [_Readme File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.md)
+    - 📝 [_PDF File_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2008%20-%20Let's%20Get%20Classy%20Assignment.pdf)
+    - 📝 [_Readme File_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2008%20-%20Let's%20Get%20Classy%20Assignment.md)
   - 📔 Assignment Solution
     - 📖 [_Theory Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2007%20-%20Finding%20the%20Path%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
