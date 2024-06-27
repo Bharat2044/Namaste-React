@@ -6,17 +6,7 @@ import User from "./User";
 import UserClass from "./UserClass";
 
 class About extends React.Component {
-  /**
-   * Constructor is the first method that is called when an instance of a class is created
-   * It is used to initialize the state of the component
-   * It is also used to bind the event handlers
-   * 
-   * This phase is called the Mounting Phase / Loading Phase, where the component is being created and inserted into the DOM.
-   * The constructor is called only once in the lifecycle of a component.
-   * The constructor is the right place to initialize the state of the component.
-   * 
-   * @param {object} props - The props object is the properties passed to the component
-   */
+  // Constructor is the first method that is called when an instance of a class is created
   constructor(props) {
     super(props); // Call the super constructor with props
 
@@ -29,6 +19,7 @@ class About extends React.Component {
   }
 
   // componentDidMount is called after the component is rendered
+  // It is used to make API calls, set up subscriptions, or initialize data
   componentDidMount() {
     console.log("About Class (Parent) Component Did Mount Called");
   }
@@ -47,6 +38,7 @@ class About extends React.Component {
     this.setState({ showUser: !this.state.showUser });
   };
 
+  // render method is called to render the JSX
   render() {
     console.log("About Class (Parent) Render Method Called");
 
@@ -121,23 +113,3 @@ export default About;
 
 // export default About;
 
-
-
-
-/**
-The mounting or loading process in the UserClass component involves the lifecycle methods provided by React, such as componentDidMount, componentDidUpdate, and componentWillUnmount.
-
-Here is a breakdown of these methods:
-
-1. Constructor: The constructor is called first when an instance of the component is created. 
-It is used to initialize the state and bind event handlers.
-
-2. componentDidMount: This method is called immediately after the component is mounted (inserted into the tree). 
-It's a good place to set up any subscriptions, initialize data, or make network requests.
-
-3. componentDidUpdate: This method is called after the component is updated. 
-It's useful for handling operations based on changes in the state or props.
-
-4. componentWillUnmount: This method is called just before the component is unmounted and destroyed. 
-It's useful for cleaning up subscriptions, canceling network requests, or other cleanup operations.
- */
