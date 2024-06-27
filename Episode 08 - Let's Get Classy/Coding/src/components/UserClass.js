@@ -25,21 +25,105 @@ class UserClass extends Component {
     console.log("UserClass (Child) Constructor Called");
   }
 
-  // componentDidMount is called after the component is rendered
+  /**
+   * componentDidMount is called after the component is rendered
+   * It is used to make API calls, set up subscriptions, or initialize data
+   * In functional components, useEffect with an empty dependency array can be used to achieve similar behavior.
+   * 
+   * This phase is called the Mounting Phase / Loading Phase, where the component is being created and inserted into the DOM.
+   * The componentDidMount method is called only once in the lifecycle of a component.
+   * The componentDidMount method is the right place to make API calls, set up subscriptions, or initialize data.
+   * 
+   * componentDidMount is called after the render method is called
+   * componentDidMount is called after the component is mounted (inserted into the tree)
+   * Both the constructor and componentDidMount methods are part of the mounting phase, but they occur at different points within this phase.
+   */
   componentDidMount() {
     console.log("UserClass (Child) Component Did Mount Called");
   }
 
-  // componentDidUpdate is called after the component is updated
-  componentDidUpdate() {
+  /**
+   * shouldComponentUpdate is called before the component is updated
+   * It is used to determine if the component should re-render
+   * In functional components, React.memo can be used to achieve similar behavior.
+   * 
+   * This phase is called the Updating Phase, where the component is being re-rendered due to changes in props or state.
+   * The shouldComponentUpdate method is called before the render method is called.
+   * The shouldComponentUpdate method is called before the component is updated.
+   * The shouldComponentUpdate method is called before the component is re-rendered.
+   * The shouldComponentUpdate method is called before the changes are flushed to the DOM.
+   * The shouldComponentUpdate method is called before the component is mounted (inserted into the tree).
+   */
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log("UserClass (Child) Should Component Update Called");
+    console.log("Next Props: ", nextProps);
+    console.log("Next State: ", nextState);
+    console.log("Current Props: ", this.props);
+    console.log("Current State: ", this.state);
+
+    if (nextState.count1 > 10) {
+      return false;
+    }
+
+    return true;
+  }
+
+  /**
+   * componentDidUpdate is called after the component is updated
+   * It is used to perform updates after the component is rendered
+   * In functional components, useEffect with a dependency array can be used to achieve similar behavior.
+   * 
+   * This phase is called the Updating Phase, where the component is being re-rendered due to changes in props or state.
+   * The componentDidUpdate method is called after the render method is called.
+   * The componentDidUpdate method is called after the component is updated.
+   * The componentDidUpdate method is called after the component is re-rendered.
+   * The componentDidUpdate method is called after the changes have been flushed to the DOM.
+   * The componentDidUpdate method is called after the component is mounted (inserted into the tree).
+   */
+  // componentDidUpdate() {}
+  componentDidUpdate(prevProps, prevState) {
     console.log("UserClass (Child) Component Did Update Called");
+    console.log("Previous Props: ", prevProps);
+    console.log("Previous State: ", prevState);
+    console.log("Current Props: ", this.props);
+    console.log("Current State: ", this.state);
   }
 
   // componentWillUnmount is called before the component is removed from the DOM
+  /**
+   * componentWillUnmount is called before the component is removed from the DOM
+   * It is used to perform cleanup before the component is removed
+   * In functional components, useEffect with a cleanup function can be used to achieve similar behavior.
+   * 
+   * This phase is called the Unmounting Phase, where the component is being removed from the DOM.
+   * The componentWillUnmount method is called only once in the lifecycle of a component.
+   * The componentWillUnmount method is the right place to perform cleanup before the component is removed.
+   * The componentWillUnmount method is called before the component is removed from the DOM.
+   * The componentWillUnmount method is called before the component is unmounted (removed from the tree).
+   */
   componentWillUnmount() {
     console.log("UserClass (Child) Component Will Unmount Called");
   }
 
+  /**
+   * render method returns the JSX of the component
+   * It is a required method in class components
+   * It is used to display the content of the component
+   * 
+   * This phase is called the Mounting Phase / Loading Phase, where the component is being created and inserted into the DOM.
+   * The render method is called every time the component is updated.
+   * 
+   * The render method is called after the constructor method.
+   * The render method is called after the componentDidMount method.
+   * The render method is called after the shouldComponentUpdate method.
+   * The render method is called after the componentDidUpdate method.
+   * The render method is called after the component is mounted (inserted into the tree).
+   * The render method is called after the component is updated.
+   * The render method is called after the component is re-rendered.
+   * The render method is called after the changes are flushed to the DOM.
+   * 
+   * @returns {JSX.Element} JSX
+   */
   render() {
     const { name, location } = this.props;
     const { count1, count2 } = this.state;
@@ -93,32 +177,3 @@ class UserClass extends Component {
 
 export default UserClass;
 
-
-/**
-In React, when you extend a Component class and implement a constructor, it's mandatory to call super(props) before any other statements. 
-This is because:
-
-Inheritance: The constructor of the parent class (Component) needs to be called to ensure that the component is set up properly. 
-If you don't call super(props), this won't be defined, and you'll encounter an error.
-
-Accessing props: Calling super(props) allows you to access this.props in the constructor. 
-If you don't pass props to super, this.props will be undefined.
-*/
-
-/**
-The mounting or loading process in the UserClass component involves the lifecycle methods provided by React, such as componentDidMount, componentDidUpdate, and componentWillUnmount.
-
-Here is a breakdown of these methods:
-
-1. Constructor: The constructor is called first when an instance of the component is created. 
-It is used to initialize the state and bind event handlers.
-
-2. componentDidMount: This method is called immediately after the component is mounted (inserted into the tree). 
-It's a good place to set up any subscriptions, initialize data, or make network requests.
-
-3. componentDidUpdate: This method is called after the component is updated. 
-It's useful for handling operations based on changes in the state or props.
-
-4. componentWillUnmount: This method is called just before the component is unmounted and destroyed. 
-It's useful for cleaning up subscriptions, canceling network requests, or other cleanup operations.
- */
