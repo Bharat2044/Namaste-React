@@ -185,8 +185,8 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_Readme File_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2008%20-%20Let's%20Get%20Classy%20Assignment.md)
   - 📔 Assignment Solution
     - 📖 [_Theory Assignment Solution_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2008%20-%20Let's%20Get%20Classy%20Theory%20Assignment%20Solution.md)
-    - 💻 [_Coding Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
-      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode07.netlify.app/)
+    - 💻 [_Coding Assignment Solution_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode08.netlify.app/)
   - 🖥️ Digital and Handwritten Notes
     - 📟 [_Digital Notes of Live Class_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2008%20-%20Let's%20Get%20Classy%20Digital%20Notes.pdf) 
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2008%20-%20Let's%20Get%20Classy%20HandWritten%20Notes.pdf) 
