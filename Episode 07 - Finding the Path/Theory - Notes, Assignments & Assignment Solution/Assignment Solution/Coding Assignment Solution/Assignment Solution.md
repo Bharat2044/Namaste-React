@@ -1128,7 +1128,7 @@ const RestaurantMenu = () => {
                 {avgRatingString || 3.8} ({totalRatingsString || "1K+ ratings"})
               </span>
             </div>
-            <h4>|</h4>
+            <span>|</span>
             <span className="time">{sla?.slaString}</span>
           </h4>
         </div>
