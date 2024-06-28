@@ -389,7 +389,7 @@ constructor(props) {
     count1: 0,
     count2: 0,
   };
-  console.log("UserClass (Child) Constructor Called");
+  console.log("UserClass (Child) constructor() Called");
 }
 ```
 
@@ -397,6 +397,7 @@ constructor(props) {
 
 ```js
 /**
+* render method is called to render the JSX
 * render method returns the JSX of the component
 * It is a required method in class components
 * It is used to display the content of the component
@@ -418,7 +419,8 @@ constructor(props) {
 render() {
  const { name, location } = this.props;
  const { count1, count2 } = this.state
- console.log("UserClass (Child) Render Method Called")
+ console.log("UserClass (Child) render() Method Called");
+
  return (
    <div className="profile-container">
      <div className="left-profile">
@@ -446,7 +448,8 @@ render() {
        <h2>Name: {name}</h2>
        <h2>Location: {location}</h2>
        <h2>Contact: Bharat2044</h2>
-     </div
+     </div>
+
      <div className="right-profile">
        <h1>My Skills</h1>
        <ul>
@@ -480,7 +483,7 @@ render() {
 * Both the constructor and componentDidMount methods are part of the mounting phase, but they occur at different points within this phase.
 */
 componentDidMount() {
-  console.log("UserClass (Child) Component Did Mount Called");
+  console.log("UserClass (Child) componentDidMount() Called");
 }
 ```
 
@@ -500,11 +503,12 @@ componentDidMount() {
 * The shouldComponentUpdate method is called before the component is mounted (inserted into the tree).
 */
 shouldComponentUpdate(nextProps, nextState) {
-  console.log("UserClass (Child) Should Component Update Called");
+  console.log("UserClass (Child) shouldComponentUpdate() Called");
   console.log("Next Props: ", nextProps);
   console.log("Next State: ", nextState);
   console.log("Current Props: ", this.props);
   console.log("Current State: ", this.state);
+
   if (nextState.count1 > 10) {
     return false;
   }
@@ -527,14 +531,17 @@ shouldComponentUpdate(nextProps, nextState) {
 * The componentDidUpdate method is called after the changes have been flushed to the DOM.
 * The componentDidUpdate method is called after the component is mounted (inserted into the tree).
 */
+
 // componentDidUpdate() {
 //  console.log("UserClass (Child) Component Did Update Called");
 // }
 
 componentDidUpdate(prevProps, prevState) {
-  console.log("UserClass (Child) Component Did Update Called");
+  console.log("UserClass (Child) componentDidUpdate() Called");
   console.log("Previous Props: ", prevProps);
   console.log("Previous State: ", prevState);
+  console.log("Current Props: ", this.props);
+  console.log("Current State: ", this.state);
 }
 ```
 
@@ -544,6 +551,7 @@ componentDidUpdate(prevProps, prevState) {
 /**
 * componentWillUnmount is called before the component is removed from the DOM
 * It is used to perform cleanup before the component is removed
+* It is used to perform cleanup operations like clearing timers or subscriptions
 * In functional components, useEffect with a cleanup function can be used to achieve similar behavior.
 *
 * This phase is called the Unmounting Phase, where the component is being removed from the DOM.
@@ -553,7 +561,7 @@ componentDidUpdate(prevProps, prevState) {
 * The componentWillUnmount method is called before the component is unmounted (removed from the tree).
 */
 componentWillUnmount() {
-  console.log("UserClass (Child) Component Will Unmount Called");
+  console.log("UserClass (Child) componentWillUnmount() Called");
 }
 ```
 
@@ -577,19 +585,28 @@ class About extends React.Component {
       showUser: false,
     };
 
-    console.log("About Class (Parent) Constructor Called");
+    console.log("AboutClass (Parent) constructor() Called");
   }
 
   componentDidMount() {
-    console.log("About Class (Parent) Component Did Mount Called");
+    console.log("AboutClass (Parent) componentDidMount() Called");
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log("AboutClass (Parent) shouldComponentUpdate() Called");
+    console.log("Next Props: ", nextProps);
+    console.log("Next State: ", nextState);
+    console.log("Current Props: ", this.props);
+    console.log("Current State: ", this.state);
+    return true;
   }
 
   componentDidUpdate() {
-    console.log("About Class (Parent) Component Did Update Called");
+    console.log("AboutClass (Parent) componentDidUpdate() Called");
   }
-
+  
   componentWillUnmount() {
-    console.log("About Class (Parent) Component Will Unmount Called");
+    console.log("AboutClass (Parent) componentWillUnmount() Called");
   }
 
   toggleUser = () => {
@@ -597,7 +614,7 @@ class About extends React.Component {
   };
 
   render() {
-    console.log("About Class (Parent) Render Method Called");
+    console.log("AboutClass (Parent) render() Method Called");
 
     return (
       <div className="about-container">
@@ -690,19 +707,19 @@ class UserClass extends Component {
       count2: 0,
     };
 
-    console.log("UserClass (Child) Constructor Called");
+    console.log("UserClass (Child) constructor() Called");
   }
 
   componentDidMount() {
-    console.log("UserClass (Child) Component Did Mount Called");
+    console.log("UserClass (Child) componentDidMount() Called");
   }
 
   componentDidUpdate() {
-    console.log("UserClass (Child) Component Did Update Called");
+    console.log("UserClass (Child) componentDidUpdate() Called");
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    console.log("UserClass (Child) Should Component Update Called");
+    console.log("UserClass (Child) shouldComponentUpdate() Called");
     console.log("Next Props: ", nextProps);
     console.log("Next State: ", nextState);
     console.log("Current Props: ", this.props);
@@ -716,20 +733,22 @@ class UserClass extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log("UserClass (Child) Component Did Update Called");
+    console.log("UserClass (Child) componentDidUpdate() Called");
     console.log("Previous Props: ", prevProps);
     console.log("Previous State: ", prevState);
+    console.log("Current Props: ", this.props);
+    console.log("Current State: ", this.state);
   }
 
   componentWillUnmount() {
-    console.log("UserClass (Child) Component Will Unmount Called");
+    console.log("UserClass (Child) componentWillUnmount() Called");
   }
 
   render() {
     const { name, location } = this.props;
     const { count1, count2 } = this.state;
 
-    console.log("UserClass (Child) Render Method Called");
+    console.log("UserClass (Child) render() Method Called");
 
     return (
       <div className="profile-container">
