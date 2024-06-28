@@ -52,6 +52,11 @@ This application should now be running on `localhost`. If you want to Fork repos
 **This repository contains a `Collection of Codes, Assignments, Assignments Solutions & Class Notes`, which help you understand the concepts of React.js.**
 
 ## 📚 [_Episode 01 - Inception_](./Episode%2001%20-%20Inception/)
+> **Introduction to foundational tools and frameworks in web development.**
+- 🧾 **Topics Covered:**
+  - Visual code setup,
+  - Hello world in HTML/JS,
+  - CDN, React Hello World
 - 💻 **Coding**
   - 🖥️ [_Coding_](./Episode%2001%20-%20Inception/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
@@ -67,6 +72,11 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 📚 [_Episode 02 - Igniting our App_](./Episode%2002%20-%20Igniting%20our%20App/)
+> **Dive into essential package managers and module bundlers for React projects.**
+- 🧾 **Topics Covered:**
+  - npm, Parcel
+  - Node modules
+  - React app file structure
 - 💻 **Coding**
   - 👨‍💻 [_Coding_](./Episode%2002%20-%20Igniting%20our%20App/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
@@ -82,6 +92,10 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 📚 [_Episode 03 - Laying the Foundation_](./Episode%2003%20-%20Laying%20the%20Foundation/)
+> **Understanding JSX, React components, and their compositions.**
+- 🧾 **Topics Covered:**
+  - JSX, React components
+  - Class-based vs Functional components
 - 💻 **Coding**
   - 👨‍💻 [_Coding_](./Episode%2003%20-%20Laying%20the%20Foundation/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
@@ -97,6 +111,11 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 📚 [_Episode 04 - Talk is Cheap, Show Me the Code_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/)
+> **Implementing React's core features, managing state, and working with UI data.**
+- 🧾 **Topics Covered:**
+  - React app building
+  - props/state
+  - function mapping
 - 💻 **Coding**
   - 👨‍💻 [_Coding_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
@@ -113,6 +132,11 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 📚 [_Episode 05 - Let's Get Hooked_](./Episode%2005%20-%20Let's%20Get%20Hooked/)
+> **Exploring React Hooks and understanding their importance.**
+- 🧾 **Topics Covered:**
+  - File structure
+  - Import/export
+  - React Hooks (useState)
 - 💻 **Coding**
   - 👨‍💻 [_Coding_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
@@ -129,6 +153,13 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 📚 [_Episode 06 - Exploring the World_](./Episode%2006%20-%20Exploring%20the%20World/)
+> **Architecture insights, useEffect hook, and working with APIs.**
+- 🧾 **Topics Covered:**
+  - Architecture, useEffect
+  - Conditional Rendering
+  - API Usage
+  - Resolve Swiggy API Issue
+  - Resolve CORS Problem
 - 💻 **Coding**
   - 👨‍💻 [_Coding_](./Episode%2006%20-%20Exploring%20the%20World/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
@@ -145,22 +176,11 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 📚 [_Episode 07 - Finding the Path_](./Episode%2007%20-%20Finding%20the%20Path/)
-- 💻 **Coding**
-  - 👨‍💻 [_Coding_](./Episode%2007%20-%20Finding%20the%20Path/Coding/)
-- 📒 **Theory - Notes, Assignments & Assignment Solution**
-  - 📘 Assignment
-    - 📝 [_PDF File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.pdf)
-    - 📝 [_Readme File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.md)
-  - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2007%20-%20Finding%20the%20Path%20Theory%20Assignment%20Solution.md)
-    - 💻 [_Coding Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
-      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode07.netlify.app/)
-  - 🖥️ Digital and Handwritten Notes
-    - 📟 [_Digital Notes of Live Class_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2007%20-%20Finding%20the%20Path%20Digital%20Notes.pdf) 
-    - 📝 [_Hand Written Notes of Live Class_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2007%20-%20Finding%20the%20Path%20HandWritten%20Notes.pdf) 
-
-
-## 📚 [_Episode 07 - Finding the Path_](./Episode%2007%20-%20Finding%20the%20Path/)
+> **Mastering React Router for smooth navigation and routing.**
+- 🧾 **Topics Covered:**
+  - React Router
+  - Dynamic Routing
+  - Outlet Component
 - 💻 **Coding**
   - 👨‍💻 [_Coding_](./Episode%2007%20-%20Finding%20the%20Path/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
@@ -177,6 +197,10 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 📚 [_Episode 08 - Let's Get Classy_](./Episode%2008%20-%20Let's%20Get%20Classy/)
+> **Learning Class-based components and their lifecycles.**
+- 🧾 **Topics Covered:**
+  - Class-based components
+  - Lifecycle methods
 - 💻 **Coding**
   - 👨‍💻 [_Coding_](./Episode%2008%20-%20Let's%20Get%20Classy/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
