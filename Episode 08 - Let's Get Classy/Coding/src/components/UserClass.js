@@ -22,7 +22,7 @@ class UserClass extends Component {
       count2: 0,
     };
 
-    console.log("UserClass (Child) Constructor Called");
+    console.log("UserClass (Child) constructor() Called");
   }
 
   /**
@@ -39,7 +39,10 @@ class UserClass extends Component {
    * Both the constructor and componentDidMount methods are part of the mounting phase, but they occur at different points within this phase.
    */
   componentDidMount() {
-    console.log("UserClass (Child) Component Did Mount Called");
+    console.log("UserClass (Child) componentDidMount() Called");
+
+    // API Call (Fetch Data)
+    
   }
 
   /**
@@ -55,7 +58,7 @@ class UserClass extends Component {
    * The shouldComponentUpdate method is called before the component is mounted (inserted into the tree).
    */
   shouldComponentUpdate(nextProps, nextState) {
-    console.log("UserClass (Child) Should Component Update Called");
+    console.log("UserClass (Child) shouldComponentUpdate() Called");
     console.log("Next Props: ", nextProps);
     console.log("Next State: ", nextState);
     console.log("Current Props: ", this.props);
@@ -82,7 +85,7 @@ class UserClass extends Component {
    */
   // componentDidUpdate() {}
   componentDidUpdate(prevProps, prevState) {
-    console.log("UserClass (Child) Component Did Update Called");
+    console.log("UserClass (Child) componentDidUpdate() Called");
     console.log("Previous Props: ", prevProps);
     console.log("Previous State: ", prevState);
     console.log("Current Props: ", this.props);
@@ -102,7 +105,7 @@ class UserClass extends Component {
    * The componentWillUnmount method is called before the component is unmounted (removed from the tree).
    */
   componentWillUnmount() {
-    console.log("UserClass (Child) Component Will Unmount Called");
+    console.log("UserClass (Child) componentWillUnmount() Called");
   }
 
   /**
@@ -128,7 +131,7 @@ class UserClass extends Component {
     const { name, location } = this.props;
     const { count1, count2 } = this.state;
 
-    console.log("UserClass (Child) Render Method Called");
+    console.log("UserClass (Child) render() Method Called");
 
     return (
       <div className="profile-container">
