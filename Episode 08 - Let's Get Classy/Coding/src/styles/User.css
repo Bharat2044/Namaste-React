@@ -1,7 +1,13 @@
 .profile-container {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-profile .profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
