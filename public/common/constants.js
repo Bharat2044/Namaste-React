@@ -19,5 +19,8 @@ export const EMAIL_LINK = "mailto:bharatkumar204451@gmal.com";
 
 
 // Github - username and repository name
-export const Github_UserName = "Bharat2044";
-export const Github_Repository_Name = "Namaste-React";
+export const GITHUB_USERNAME = "Bharat2044";
+export const GITHUB_REPOSITORY_NAME = "Namaste-React";
+
+// Github API for User
+export const GITHUB_USER_API = "https://api.github.com/users/";
