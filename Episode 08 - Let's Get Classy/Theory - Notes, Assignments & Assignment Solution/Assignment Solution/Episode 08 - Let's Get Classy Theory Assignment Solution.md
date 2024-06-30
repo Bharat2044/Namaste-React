@@ -66,7 +66,9 @@ For more reference [Read more](https://reactrouter.com/en/main/routers/create-me
 4. componentDidUpdate()
 5. componentWillUnmount()
 
-For more reference [React-Lifecycle-methods-Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+### For more reference [React-Lifecycle-methods-Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+### For more reference [React-Lifecycle-methods](https://www.freecodecamp.org/news/react-component-lifecycle-methods/)
+### For more reference [React-Lifecycle-methods-Diagram](https://medium.com/@arpitparekh54/understanding-the-react-component-lifecycle-a-deep-dive-into-the-life-of-a-react-component-74813cb8dfb5/)
 
 ## Ques): Why do we use `componentDidMount`?
 
