@@ -24,7 +24,7 @@ class UserClass extends Component {
       const response = await fetch(GITHUB_USER_API + GITHUB_USERNAME);
       const json = await response.json();
       
-      console.log(json);
+      // console.log(json);
 
       this.setState({
         userInfo: json
@@ -37,6 +37,10 @@ class UserClass extends Component {
   componentDidMount() {
     // console.log("Child - UserClass componentDidMount() Called");
 
+    // this.timer = setInterval(() => {
+    //   console.log("setInterval Called - Namaste React OP");
+    // }, 1000);
+
     // API Calls (Fetch Data)
     this.getUserInfo();
   }
@@ -47,6 +51,8 @@ class UserClass extends Component {
 
   componentWillUnmount() {
     // console.log("Child - UserClass componentWillUnmount() Called");
+
+    // clearInterval(this.timer);
   }
 
   render() {
