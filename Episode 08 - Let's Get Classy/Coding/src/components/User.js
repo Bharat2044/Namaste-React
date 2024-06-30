@@ -18,10 +18,21 @@ const Profile = () => {
   }
 
   useEffect(() => {
+    console.log("Profile Component Mounted");
     // API Calls (Fetch Data)
     getUserInfo();
+
+    // const timer = setInterval(() => {
+    //   console.log("setInterval Called - Namaste React OP");
+    // }, 1000);
+
+    // return () => {
+      // console.log("Profile Component Unmounted");
+    //   clearInterval(timer);
+    // };
   }, []);
 
+  // console.log("render")
   return (
     <div className="profile-container">
       <div className="left-profile">
