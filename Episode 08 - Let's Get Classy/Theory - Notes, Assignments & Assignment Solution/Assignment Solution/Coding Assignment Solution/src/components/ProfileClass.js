@@ -1,5 +1,5 @@
 import { Component } from "react";
-import ProfileUserClass from "./ProfileUserClass.js";
+import ProfileUserClass from "./ProfileUserClass";
 import ProfileRepoClass from "./ProfileRepoClass";
 import {
   GITHUB_USER_API,

@@ -19,6 +19,10 @@
   padding: 15px;
 }
 
+.repo-container {
+  padding-bottom: 30px;
+}
+
 .profile-title,
 .repo-title {
   font-size: 28px;
