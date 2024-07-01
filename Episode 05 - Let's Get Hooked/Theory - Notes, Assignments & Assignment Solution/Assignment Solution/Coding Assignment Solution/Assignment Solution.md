@@ -34,7 +34,7 @@
     </div>
 
     <!-- Injected External JavaScript File -->
-        <script type="module" src="../Episode 05 - Let's Get Hooked/Theory - Notes, Assignments & Assignment Solution/Assignment Solution/Coding Assignment Solution/src/App.js"></script>
+        <script type="module" src="../Episode 05 - Let's Get Hooked/Theory - Notes, Assignments & Assignment Solution/Assignment Solution/Coding Assignment Solution/App.js"></script>
   </body>
 </html>
 ```
