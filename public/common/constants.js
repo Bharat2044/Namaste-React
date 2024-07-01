@@ -24,3 +24,6 @@ export const GITHUB_REPOSITORY_NAME = "Namaste-React";
 
 // Github API for User
 export const GITHUB_USER_API = "https://api.github.com/users/";
+
+// Github API for Repository
+export const GITHUB_REPO_API = "https://api.github.com/repos/";
