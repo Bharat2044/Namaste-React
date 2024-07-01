@@ -87,7 +87,7 @@ const RestaurantMenu = () => {
               <div className="left">
                 <h2>{name}</h2>
                 <h4>₹{price / 100 || defaultPrice / 100}</h4>
-                <p>{description.slice(0, 60)}</p>
+                <p>{description && description.slice(0, 60) || "Dummy"}</p>
                 <h4 className="rating">
                   <MdStarRate
                     className="rating-logo"
