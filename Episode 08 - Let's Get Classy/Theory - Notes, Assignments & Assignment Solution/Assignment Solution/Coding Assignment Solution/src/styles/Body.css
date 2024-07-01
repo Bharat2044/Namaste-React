@@ -1,0 +1,95 @@
+/* Restaurant Body CSS */
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.restaurant-container,
+.shimmer-container {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2%;
+  row-gap: 20px;
+}
+
+.shimmer-container {
+  margin-top: 120px;
+}
+
+.restaurant-card,
+.shimmer-card {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+}
+
+.shimmer-card {
+  background-color: #cecccc;
+}
+
+.restaurant-card:hover {
+  transform: scale(0.98);
+}
+
+.search-box {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.shimmer-search-box {
+  width: 50%;
+  height: 50px;
+  background-color: #cecccc;
+  border-radius: var(--border-radius);
+  margin-bottom: 30px;
+}
+
+.search-box > input {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #3d3d3d;
+  background-color: transparent;
+  border: 1px solid #818181;
+  border-right: none;
+  border-radius: var(--border-radius) 0px 0px var(--border-radius);
+  outline: none;
+  width: 90%;
+}
+
+.search-box > input:focus {
+  border: 1px solid var(--orange);
+}
+
+.search-box > .search {
+  padding: 11px;
+  font-size: 1.2rem;
+  color: var(--white);
+  background-color: var(--orange);
+  border-radius: 0px var(--border-radius) var(--border-radius) 0px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.search-box > .search:hover {
+  background-color: var(--btn-hover-color);
+  transition: 0.3s;
+}
+
+.search {
+  padding: 10px;
+}
