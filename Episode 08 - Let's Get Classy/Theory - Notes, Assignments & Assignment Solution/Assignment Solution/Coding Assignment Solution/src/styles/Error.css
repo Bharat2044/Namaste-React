@@ -1,0 +1,47 @@
+/* Error */
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 40px);
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 20px 10px;
+}
+
+.error-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-image > img {
+  width: 90%;
+}
+
+.error-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.error-back-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.error-back-home > .link-name {
+  padding: 10px;
+  background-color: #e46f20;
+  color: var(--white);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.error-back-home > .link-name:hover {
+  background-color: var(--btn-hover-color);
+  transition: 0.3s;
+}
