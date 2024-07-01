@@ -70,6 +70,7 @@ All are same
 - Chunking
 - Lazy Loading
 - Code Splitting
+- Dynamic Bundding 
 - Dynamic Imports
 - Suspense
 - On-Demand Loading
