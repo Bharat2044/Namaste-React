@@ -40,7 +40,7 @@ You need to write the following commands on the terminal screen(in vscode) so th
 - Or,
 
 ```sh
-  npx parcel public/index.html
+  npx parcel index.html
 ```
 
 This application should now be running on `localhost`. If you want to Fork repository and want to run locally, follow this guidelines [Fork and Clone Github Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
