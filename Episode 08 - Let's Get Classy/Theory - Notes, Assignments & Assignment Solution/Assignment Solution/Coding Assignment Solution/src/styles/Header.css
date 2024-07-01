@@ -1,0 +1,58 @@
+/* Restaurant Header CSS */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  background-color: var(--header-bg-color);
+  box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
+  color: var(--light-text-color);
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  overflow-y: hidden;
+  padding: 0px 20px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-items > ul > li {
+  display: flex;
+}
+
+.nav-links,
+.login {
+  padding: 10px;
+  cursor: pointer;
+  color: inherit;
+}
+
+.nav-links:hover,
+.login:hover {
+  background-color: var(--orange);
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.login {
+  border: none;
+  background-color: transparent;
+  color: var(--light-text-color);
+  font-size: 16px;
+  font-weight: bold;
+}
