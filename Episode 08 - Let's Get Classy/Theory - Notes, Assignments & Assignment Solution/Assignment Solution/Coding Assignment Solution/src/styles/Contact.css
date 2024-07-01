@@ -1,0 +1,72 @@
+/* Contact us page CSS Start */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: hidden;
+  width: 80%;
+}
+
+.contact-container .contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container .contact-left img {
+  width: 90%;
+  object-fit: cover;
+}
+
+.contact-container .contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container .contact-right h1 {
+  font-size: 3rem;
+}
+
+.contact-container .contact-right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.contact-container .contact-right form input, .contact-container .contact-right form textarea {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 1px solid #818181;
+  width: 30vw;
+  outline: none;
+  font-size: 15px;
+  background-color: transparent;
+}
+
+.contact-container .contact-right form input:focus, .contact-container .contact-right form textarea:focus {
+  border: 1px solid darkorange;
+}
+
+.contact-container .contact-right form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: darkorange;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.contact-container .contact-right form button:hover {
+  background-color: darkgreen;
+}
