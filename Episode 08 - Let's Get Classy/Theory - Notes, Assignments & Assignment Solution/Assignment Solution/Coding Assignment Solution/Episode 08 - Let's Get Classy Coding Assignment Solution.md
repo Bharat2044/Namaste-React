@@ -1493,7 +1493,7 @@ export default About;
 ```js
 // ProfileClass.js
 import { Component } from "react";
-import ProfileUserClass from "./ProfileUserClass.js";
+import ProfileUserClass from "./ProfileUserClass";
 import ProfileRepoClass from "./ProfileRepoClass";
 import {
   GITHUB_USER_API,
@@ -1712,7 +1712,6 @@ import {
   GITHUB_USERNAME,
   GITHUB_REPOSITORY_NAME,
 } from "../../../../../../public/common/constants";
-import "../styles/profileClass.css";
 import { FaRegStar } from "react-icons/fa";
 import { BiGitRepoForked } from "react-icons/bi";
 import { FiUsers } from "react-icons/fi";
@@ -1744,7 +1743,7 @@ class ProfileRepoClass extends Component {
         repoInfo: json,
       });
 
-      console.log(json);
+      // console.log(json);
     } catch (error) {
       console.error("Error fetching repository data:", error);
     }
