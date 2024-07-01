@@ -216,3 +216,25 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2008%20-%20Let's%20Get%20Classy%20HandWritten%20Notes.pdf) 
 
 
+
+## 📚 [_Episode 09 - Optimizing our App_](./Episode%2009%20-%20Optimizing%20our%20App/)
+> **Advanced optimization techniques including Custom Hooks.**
+- 🧾 **Topics Covered:**
+  - Custom Hooks
+  - Optimization
+  - Suspense Component
+- 💻 **Coding**
+  - 👨‍💻 [_Coding_](./Episode%2009%20-%20Optimizing%20our%20App/Coding/)
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
+  - 📘 Assignment
+    - 📝 [_PDF File_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2009%20-%20Optimizing%20our%20App%20Assignment.png)
+    - 📝 [_Readme File_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2009%20-%20Optimizing%20our%20App%20Assignment.md)
+  - 📔 Assignment Solution
+    - 📖 [_Theory Assignment Solution_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2009%20-%20Optimizing%20our%20App%20Theory%20Assignment%20Solution.md)
+    - 💻 [_Coding Assignment Solution_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode09.netlify.app/)
+  - 🖥️ Digital and Handwritten Notes
+    - 📟 [_Digital Notes of Live Class_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2009%20-%20Optimizing%20our%20App%20Digital%20Notes.pdf) 
+    - 📝 [_Hand Written Notes of Live Class_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2009%20-%20Optimizing%20our%20App%20HandWritten%20Notes.pdf) 
+
+
