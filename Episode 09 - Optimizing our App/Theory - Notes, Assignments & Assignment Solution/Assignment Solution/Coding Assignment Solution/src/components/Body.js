@@ -1,0 +1,59 @@
+import { useState } from "react";
+import RestaurantCard from "./RestaurantCard";
+import UserOffline from "./UserOffline";
+import { RestaurantShimmer } from "./Shimmer";
+import "../styles/Body.css";
+import useOnlineStatus from "../hooks/useOnlineStatus";
+import useRestaurantData from "../hooks/useRestaurantData";
+
+const Body = () => {
+  const [searchRestaurant, setSearchRestaurant] = useState("");
+  const [restaurantName, setRestaurantName] = useState("");
+
+  const isOnline = useOnlineStatus();
+  const [listOfRestaurants, filteredRestaurants, setFilteredRestaurants] = useRestaurantData();
+
+  const handleSearch = () => {
+    const filtered = listOfRestaurants.filter((res) =>
+      res.info.name.toLowerCase().includes(searchRestaurant.toLowerCase())
+    );
+
+    setFilteredRestaurants(filtered);
+    setRestaurantName(searchRestaurant);
+  };
+
+  if (!isOnline) {
+    return <UserOffline />;
+  }
+
+  // Conditional rendering using ternary operator
+  return listOfRestaurants.length === 0 ? (
+    <RestaurantShimmer />
+  ) : (
+    <div className="body">
+      <div className="search-box">
+        <input
+          type="text"
+          value={searchRestaurant}
+          onChange={(e) => setSearchRestaurant(e.target.value)}
+          placeholder="Search a restaurant you want..."
+        />
+        <button className="search" onClick={handleSearch}>
+          Search
+        </button>
+      </div>
+
+      <div className="restaurant-container">
+        {filteredRestaurants.length !== 0 ? (
+          filteredRestaurants.map((restaurant) => (
+            <RestaurantCard key={restaurant?.info?.id} {...restaurant?.info} />
+          ))
+        ) : (
+          <h2>Sorry, we couldn't find any restaurant for "{restaurantName}"</h2>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Body;
