@@ -16,7 +16,7 @@
 
 <br/>
 
-# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode07.netlify.app/)
+# [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode08.netlify.app/)
 
 <br/>
 
