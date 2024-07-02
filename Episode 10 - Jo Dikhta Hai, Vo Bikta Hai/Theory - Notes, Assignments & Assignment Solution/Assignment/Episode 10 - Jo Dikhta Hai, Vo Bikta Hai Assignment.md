@@ -13,7 +13,7 @@
 
 
 ## References:
-- [Style Componentsd](https://styled-components.com/)
+- [Styled Components](https://styled-components.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [UI](https://mui.com/)
