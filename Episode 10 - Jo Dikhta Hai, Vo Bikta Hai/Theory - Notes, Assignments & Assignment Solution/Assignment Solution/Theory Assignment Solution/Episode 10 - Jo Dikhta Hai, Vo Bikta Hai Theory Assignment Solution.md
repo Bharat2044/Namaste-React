@@ -364,4 +364,4 @@ The `.postcssrc` file is essential for configuring PostCSS effectively in modern
 - [Styled Components](https://styled-components.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Bootstrap](https://getbootstrap.com/)
-- [MUI](https://mui.com/)
+- [Material UI](https://mui.com/)
