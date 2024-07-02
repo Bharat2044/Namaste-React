@@ -5,7 +5,7 @@
 
 <br />
 
-## 🔥 **Clone this Repository**
+## 🔥 **Clone this Repository** 💫
 
 You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
 
@@ -47,7 +47,7 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 <br />
 
-## 🎨 **Contents**
+## 👨‍💻 **Contents** 👀
 
 **This repository contains a `Collection of Codes, Assignments, Assignments Solutions & Class Notes`, which help you understand the concepts of React.js.**
 
@@ -58,7 +58,7 @@ This application should now be running on `localhost`. If you want to Fork repos
   - Hello world in HTML/JS,
   - CDN, React Hello World
 - 💻 **Coding**
-  - 🖥️ [_Coding_](./Episode%2001%20-%20Inception/Coding/)
+  - 👨‍💻 [_Coding_](./Episode%2001%20-%20Inception/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
     - 📝 [_PDF File_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment/Episode%2001%20-%20Inception%20Assignment.pdf)
@@ -235,7 +235,6 @@ This application should now be running on `localhost`. If you want to Fork repos
   - 🖥️ Digital and Handwritten Notes
     - 📟 [_Digital Notes of Live Class_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2009%20-%20Optimizing%20our%20App%20Digital%20Notes.pdf) 
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2009%20-%20Optimizing%20our%20App%20HandWritten%20Notes.pdf) 
-
 
 
 ## 📚 [_Episode 10 - Jo Dikhta Hai, Vo Bikta Hai_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/)
