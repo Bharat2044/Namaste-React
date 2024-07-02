@@ -64,7 +64,7 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment/Episode%2001%20-%20Inception%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment/Episode%2001%20-%20Inception%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2001%20-%20Inception%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2001%20-%20Inception%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
   - 🖥️ Digital and Handwritten Notes
     - 📟 [_Digital Notes of Live Class_](./Episode%2001%20-%20Inception/Theory%20-%20Notes,%20Assignment%20&%20Assignment%20Solution/Notes/Episode%2001%20-%20Inception%20Digital%20Notes.pdf) 
@@ -84,8 +84,8 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2002%20-%20Igniting%20our%20App%20Assignment%20.pdf)
     - 📝 [_Readme File_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2002%20-%20Igniting%20our%20App%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2002%20-%20Igniting%20our%20App%20Assignment%20Solution.md)
-    - 💻 [_Coding Assignment Solution_](./Episode%2002%20-%20Igniting%20our%20App/Coding/)
+    - 📖 [_Theory Assignment Solution_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2002%20-%20Igniting%20our%20App%20Assignment%20Solution.md)
+    - 💻 [_Coding Assignment Solution_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
   - 🖥️ Digital and Handwritten Notes
     - 📟 [_Digital Notes of Live Class_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2002%20-%20Igniting%20our%20App%20%20Digital%20Notes.pdf) 
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2002%20-%20Igniting%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2002%20-%20Igniting%20our%20App%20HandWritten%20Notes.pdf) 
@@ -103,7 +103,7 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2003%20-%20Laying%20the%20Foundation%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2003%20-%20Laying%20the%20Foundation%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2003%20-%20Laying%20the%20Foundation%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2003%20-%20Laying%20the%20Foundation%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
   - 🖥️ Digital and Handwritten Notes
     - 📟 [_Digital Notes of Live Class_](./Episode%2003%20-%20Laying%20the%20Foundation/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2003%20-%20Laying%20the%20Foundation%20Digital%20Notes.pdf) 
@@ -123,7 +123,7 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2004%20-%20Talk%20is%20Cheap,%20Show%20Me%20the%20Code/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode04.netlify.app/)
   - 🖥️ Digital and Handwritten Notes
@@ -144,7 +144,7 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2005%20-%20Let's%20Get%20Hooked%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2005%20-%20Let's%20Get%20Hooked%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2005%20-%20Let's%20Get%20Hooked%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2005%20-%20Let's%20Get%20Hooked%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2005%20-%20Let's%20Get%20Hooked/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode05.netlify.app/)
   - 🖥️ Digital and Handwritten Notes
@@ -167,7 +167,7 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2006%20-%20Exploring%20the%20World%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2006%20-%20Exploring%20the%20World%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2006%20-%20Exploring%20the%20World%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2006%20-%20Exploring%20the%20World%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2006%20-%20Exploring%20the%20World/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode06.netlify.app/)
   - 🖥️ Digital and Handwritten Notes
@@ -188,7 +188,7 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2007%20-%20Finding%20the%20Path%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2007%20-%20Finding%20the%20Path%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2007%20-%20Finding%20the%20Path%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2007%20-%20Finding%20the%20Path/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode07.netlify.app/)
   - 🖥️ Digital and Handwritten Notes
@@ -208,13 +208,12 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2008%20-%20Let's%20Get%20Classy%20Assignment.pdf)
     - 📝 [_Readme File_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2008%20-%20Let's%20Get%20Classy%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2008%20-%20Let's%20Get%20Classy%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2008%20-%20Let's%20Get%20Classy%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode08.netlify.app/)
   - 🖥️ Digital and Handwritten Notes
     - 📟 [_Digital Notes of Live Class_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2008%20-%20Let's%20Get%20Classy%20Digital%20Notes.pdf) 
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2008%20-%20Let's%20Get%20Classy/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2008%20-%20Let's%20Get%20Classy%20HandWritten%20Notes.pdf) 
-
 
 
 ## 📚 [_Episode 09 - Optimizing our App_](./Episode%2009%20-%20Optimizing%20our%20App/)
@@ -230,11 +229,34 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_PDF File_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2009%20-%20Optimizing%20our%20App%20Assignment.png)
     - 📝 [_Readme File_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2009%20-%20Optimizing%20our%20App%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Episode%2009%20-%20Optimizing%20our%20App%20Theory%20Assignment%20Solution.md)
+    - 📖 [_Theory Assignment Solution_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2009%20-%20Optimizing%20our%20App%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode09.netlify.app/)
   - 🖥️ Digital and Handwritten Notes
     - 📟 [_Digital Notes of Live Class_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2009%20-%20Optimizing%20our%20App%20Digital%20Notes.pdf) 
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2009%20-%20Optimizing%20our%20App/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2009%20-%20Optimizing%20our%20App%20HandWritten%20Notes.pdf) 
+
+
+
+## 📚 [_Episode 10 - Jo Dikhta Hai, Vo Bikta Hai_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/)
+> **Introduction to Tailwind CSS for responsive UI designs.**
+- 🧾 **Topics Covered:**
+  - Tailwind CSS introduction for UI design
+- 💻 **Coding**
+  - 👨‍💻 [_Coding_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Coding/)
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
+  - 📘 Assignment
+    - 📝 [_PDF File_](/Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai%20Assignment.pdf)
+    - 📝 [_Readme File_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai%20Assignment.md)
+  - 📔 Assignment Solution
+    - 📖 [_Theory Assignment Solution_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai%20Theory%20Assignment%20Solution.md)
+    - 💻 [_Coding Assignment Solution_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode10.netlify.app/)
+  - 🖥️ Digital and Handwritten Notes
+    - 📟 [_Digital Notes of Live Class_]() 
+    - 📝 [_Hand Written Notes of Live Class_]() 
+
+
+
 
 
