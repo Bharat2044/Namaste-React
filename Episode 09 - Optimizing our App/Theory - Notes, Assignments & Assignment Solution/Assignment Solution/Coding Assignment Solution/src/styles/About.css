@@ -1,0 +1,71 @@
+/* About us page CSS Start */
+.about-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.show-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-direction: column;
+  transition: ease-in-out delay 1.5s;
+}
+
+.show-profile button.user-btn {
+  background-color: #d97919;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.show-profile button.user-btn:hover {
+  background-color: darkgreen;
+  transition: 0.3s;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.about .about-left h1 {
+  font-size: 60px;
+  color: rgb(73, 73, 73);
+  line-height: 70px;
+}
+
+.about .about-left h1 span {
+  background-color: #d97919;
+  padding: 0px 15px;
+  border-radius: 15px;
+  color: white;
+}
+
+.about .about-left h4 {
+  font-size: 22px;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.about .about-left h4 span {
+  color: #d97919;
+}
+
+.about .about-right img {
+  width: 450px;
+}
