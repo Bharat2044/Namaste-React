@@ -1,0 +1,65 @@
+/* Select all CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* CSS for scroll-bar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  background-color: #e4e3e3;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+
+a, Link {
+  text-decoration: none;
+}
+
+/* create global variable with :root selector */
+:root {
+  --header-bg-color: rgb(255, 255, 255);
+  --footer-bg-color: rgb(255, 255, 255);
+  --body-bg-color: #e3e3e3;
+  --text-color: #000;
+  --green: #00ad1d;
+  --orange: #E46F20;
+  --red: #ff0000;
+  --box-shadow: 0 0 10px rgba(216, 215, 215, 0.1);
+  --border-radius: 10px;
+  --light-text-color: #545454;
+  --white: #fff;
+  --btn-hover-color: #016034;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: calc(100vh - 120px);
+  margin-top: 120px;
+}
