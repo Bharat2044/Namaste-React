@@ -39,6 +39,12 @@ const Body = () => {
     setRestaurantName("Top Rated");
   };
 
+  const showAllRestaurant = () => {
+    setFilteredRestaurants(listOfRestaurants);
+    setRestaurantName("");
+    setShowTopRated(true);
+  };
+
   if (!isOnline) {
     return <UserOffline />;
   }
@@ -59,9 +65,13 @@ const Body = () => {
             Search
           </button>
         </div>
-        {showTopRated && (
+        {showTopRated ? (
           <button className="top-rated" onClick={handleTopRated}>
             Top Rated Restaurants
+          </button>
+        ) : (
+          <button className="top-rated" onClick={showAllRestaurant}>
+            Show All Restaurants
           </button>
         )}
       </div>
