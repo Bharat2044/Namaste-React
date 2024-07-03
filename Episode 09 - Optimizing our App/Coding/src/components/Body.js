@@ -9,9 +9,11 @@ import useRestaurantData from "../hooks/useRestaurantData";
 const Body = () => {
   const [searchRestaurant, setSearchRestaurant] = useState("");
   const [restaurantName, setRestaurantName] = useState("");
+  const [showTopRated, setShowTopRated] = useState(true);
 
   const isOnline = useOnlineStatus();
-  const [listOfRestaurants, filteredRestaurants, setFilteredRestaurants] = useRestaurantData();
+  const [listOfRestaurants, filteredRestaurants, setFilteredRestaurants] =
+    useRestaurantData();
 
   const handleSearch = () => {
     const filtered = listOfRestaurants.filter((res) =>
@@ -21,27 +23,47 @@ const Body = () => {
     setFilteredRestaurants(filtered);
     setSearchRestaurant(""); // Clear the search input box after search
     setRestaurantName(searchRestaurant);
+
+    if (filtered.length === 0) {
+      setShowTopRated(false);
+    } else {
+      setShowTopRated(true);
+    }
+  };
+
+  const handleTopRated = () => {
+    const topRated = listOfRestaurants.filter(
+      (res) => res.info.avgRating >= 4.4
+    );
+    setFilteredRestaurants(topRated);
+    setRestaurantName("Top Rated");
   };
 
   if (!isOnline) {
     return <UserOffline />;
   }
 
-  // Conditional rendering using ternary operator
   return listOfRestaurants.length === 0 ? (
     <RestaurantShimmer />
   ) : (
     <div className="body">
-      <div className="search-box">
-        <input
-          type="text"
-          value={searchRestaurant}
-          onChange={(e) => setSearchRestaurant(e.target.value)}
-          placeholder="Search a restaurant you want..."
-        />
-        <button className="search" onClick={handleSearch}>
-          Search
-        </button>
+      <div className="top-search">
+        <div className="search-box">
+          <input
+            type="text"
+            value={searchRestaurant}
+            onChange={(e) => setSearchRestaurant(e.target.value)}
+            placeholder="Search a restaurant you want..."
+          />
+          <button className="search" onClick={handleSearch}>
+            Search
+          </button>
+        </div>
+        {showTopRated && (
+          <button className="top-rated" onClick={handleTopRated}>
+            Top Rated Restaurants
+          </button>
+        )}
       </div>
 
       <div className="restaurant-container">
