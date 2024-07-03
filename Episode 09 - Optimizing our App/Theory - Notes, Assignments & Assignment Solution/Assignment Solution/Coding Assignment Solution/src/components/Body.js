@@ -22,24 +22,34 @@ const Body = () => {
     setRestaurantName(searchRestaurant);
   };
 
+  const handleTopRated = () => {
+    const topRated = listOfRestaurants.filter((res) => res.info.avgRating >= 4.4);
+    setFilteredRestaurants(topRated);
+    setRestaurantName("Top Rated");
+  };
+
   if (!isOnline) {
     return <UserOffline />;
   }
 
-  // Conditional rendering using ternary operator
   return listOfRestaurants.length === 0 ? (
     <RestaurantShimmer />
   ) : (
     <div className="body">
-      <div className="search-box">
-        <input
-          type="text"
-          value={searchRestaurant}
-          onChange={(e) => setSearchRestaurant(e.target.value)}
-          placeholder="Search a restaurant you want..."
-        />
-        <button className="search" onClick={handleSearch}>
-          Search
+      <div className="top-search">
+        <div className="search-box">
+          <input
+            type="text"
+            value={searchRestaurant}
+            onChange={(e) => setSearchRestaurant(e.target.value)}
+            placeholder="Search a restaurant you want..."
+          />
+          <button className="search" onClick={handleSearch}>
+            Search
+          </button>
+        </div>
+        <button className="top-rated" onClick={handleTopRated}>
+          Top Rated Restaurants
         </button>
       </div>
 
