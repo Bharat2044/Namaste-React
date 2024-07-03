@@ -19,6 +19,7 @@ const Body = () => {
     );
 
     setFilteredRestaurants(filtered);
+    setSearchRestaurant(""); // Clear the search input box after search
     setRestaurantName(searchRestaurant);
   };
 
