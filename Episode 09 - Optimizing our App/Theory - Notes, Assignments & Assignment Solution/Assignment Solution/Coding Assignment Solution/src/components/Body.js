@@ -9,9 +9,11 @@ import useRestaurantData from "../hooks/useRestaurantData";
 const Body = () => {
   const [searchRestaurant, setSearchRestaurant] = useState("");
   const [restaurantName, setRestaurantName] = useState("");
+  const [showTopRated, setShowTopRated] = useState(true);
 
   const isOnline = useOnlineStatus();
-  const [listOfRestaurants, filteredRestaurants, setFilteredRestaurants] = useRestaurantData();
+  const [listOfRestaurants, filteredRestaurants, setFilteredRestaurants] =
+    useRestaurantData();
 
   const handleSearch = () => {
     const filtered = listOfRestaurants.filter((res) =>
@@ -21,10 +23,18 @@ const Body = () => {
     setFilteredRestaurants(filtered);
     setSearchRestaurant(""); // Clear the search input box after search
     setRestaurantName(searchRestaurant);
+
+    if (filtered.length === 0) {
+      setShowTopRated(false);
+    } else {
+      setShowTopRated(true);
+    }
   };
 
   const handleTopRated = () => {
-    const topRated = listOfRestaurants.filter((res) => res.info.avgRating >= 4.4);
+    const topRated = listOfRestaurants.filter(
+      (res) => res.info.avgRating >= 4.4
+    );
     setFilteredRestaurants(topRated);
     setRestaurantName("Top Rated");
   };
@@ -49,9 +59,11 @@ const Body = () => {
             Search
           </button>
         </div>
-        <button className="top-rated" onClick={handleTopRated}>
-          Top Rated Restaurants
-        </button>
+        {showTopRated && (
+          <button className="top-rated" onClick={handleTopRated}>
+            Top Rated Restaurants
+          </button>
+        )}
       </div>
 
       <div className="restaurant-container">
