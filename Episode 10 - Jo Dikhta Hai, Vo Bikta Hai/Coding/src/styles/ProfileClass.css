@@ -1,0 +1,174 @@
+/* Profile Class page CSS Start */
+.profile-class-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-container, .repo-container {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.profile-container {
+  gap: 20px;
+}
+
+.profile-title,
+.repo-title {
+  font-size: 28px;
+  line-height: 1.1;
+  text-align: center;
+  color: #1e1e1e;
+  overflow-y: hidden;
+}
+
+.repo-title span {
+  color: darkorange;
+}
+/* Profile Class page CSS End */
+
+/* Profile User Class page CSS Start */
+.profile-user-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 15px 10px 15px;
+}
+
+.profile-user-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+}
+
+.profile-user-img:hover {
+  transform: scale(1.02);
+}
+
+.profile-user-bio {
+  font-size: 16px;
+  color: #575757;
+}
+/* Profile User Class page CSS End */
+
+/* ProfileRepo Class page CSS Start */
+.profile-repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  gap: 20px;
+  padding: 25px;
+  box-shadow: 6px 6px 10px -1px rgba(114, 113, 113, 0.71);
+  margin: 20px;
+}
+
+.profile-repo-container .repo-name {
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #fafafa;
+  font-size: 2rem;
+  font-weight: 600;
+  color: darkorange;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.71);
+}
+
+.profile-repo-container .repo-name:hover {
+  transform: scale(1.02);
+  color: orangered;
+}
+
+.profile-repo-container .repo-des {
+  color: #5e5d5d;
+}
+
+.profile-repo-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-repo-items h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: darkorange;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.profile-repo-items h3:hover{
+  transform: scale(1.02);
+  color: orangered;
+}
+
+.profile-repo-items h3 span {
+  padding-left: 5px;
+}
+/* ProfileRepo Class page CSS End */
+
+
+/* Social Profile Class page CSS Start */
+.social-media-container {
+  font-size: 2em;
+  width: 100%;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.icon-button i {
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.4rem;
+  height: 2.6rem;
+  width: 2.6rem;
+  line-height: 3rem;
+  text-align: center;
+  user-select: none;
+  overflow-y: hidden;
+}
+
+.icon-button i:hover{
+  transform: scale(1.02);
+}
+.linkedin i {
+  background-color: #0a66c2;
+}
+
+.twitter i {
+  background-color: #00acee;
+}
+.github i {
+  background-color: #333;
+}
+
+.email i {
+  background-color: #ea4335;
+}
+/* Social Profile Class page CSS End */
