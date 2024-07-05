@@ -26,7 +26,7 @@ const Body = lazy(() => import("./src/components/Body"));
 
 const App = () => {
   return (
-    <div className="app w-full flex flex-col justify-between items-center mt-[120px] min-h-[calc(100vh-120px)]">
+    <div className="w-full flex flex-col justify-between items-center mt-[120px] min-h-[calc(100vh-120px)]">
       <Header />
       <Outlet />
       <Footer />
