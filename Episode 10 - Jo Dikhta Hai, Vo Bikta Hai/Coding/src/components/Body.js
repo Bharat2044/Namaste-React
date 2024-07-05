@@ -52,7 +52,7 @@ const Body = () => {
   return listOfRestaurants.length === 0 ? (
     <RestaurantShimmer />
   ) : (
-    <div className="w-[90%] flex flex-col items-center transition-all">
+    <div className="w-[90%]flex flex-col items-center transition-all">
       <div className="w-[80%] flex justify-between items-center mb-[30px]">
         <div className="w-[70%] flex justify-center items-center">
           <input
