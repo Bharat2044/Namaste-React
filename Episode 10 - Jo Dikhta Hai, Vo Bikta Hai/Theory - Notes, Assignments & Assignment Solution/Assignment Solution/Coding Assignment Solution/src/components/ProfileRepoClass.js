@@ -45,7 +45,7 @@ class ProfileRepoClass extends Component {
   //   cursor: pointer;
   //   display: flex;
   //   align-items: center;
-  //   justify-content: center;  
+  //   justify-content: center;
   // }
   render() {
     const { followers } = this.props;
@@ -61,7 +61,9 @@ class ProfileRepoClass extends Component {
         >
           {name}
         </a>
-        <h3 className="text-[18px] font-semibold text-[#5E5D5D] m-0">{description}</h3>
+        <h3 className="text-[18px] font-semibold text-[#5E5D5D] m-0">
+          {description}
+        </h3>
         <a href={html_url} target="_blank" rel="noopener noreferrer">
           <div className="flex items-center justify-center gap-[20px] text-[#FF4500]">
             <h3 className="flex items-center justify-center text-[1.2rem] font-semibold gap-[5px]">
