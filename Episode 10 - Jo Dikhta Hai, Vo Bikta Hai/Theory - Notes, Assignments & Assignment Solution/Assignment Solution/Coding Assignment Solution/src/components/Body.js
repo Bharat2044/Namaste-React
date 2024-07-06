@@ -61,23 +61,32 @@ const Body = () => {
             value={searchRestaurant}
             onChange={(e) => setSearchRestaurant(e.target.value)}
             placeholder="Search a restaurant you want..."
-          />         
-          <button className="py-[7px] px-[10px] text-[1.2rem] text-[#fff] bg-[#E46F20] rounded-r-[8px] border-none hover:bg-[#016034]" onClick={handleSearch}>
+          />
+          <button
+            className="py-[7px] px-[10px] text-[1.2rem] text-[#fff] bg-[#E46F20] rounded-r-[8px] border-none hover:bg-[#016034]"
+            onClick={handleSearch}
+          >
             Search
           </button>
         </div>
         {showTopRated ? (
-          <button className="py-[7px] px-[10px] text-[1.2rem] text-[#fff] bg-[#E46F20] rounded-[8px] border-none hover:bg-[#016034]" onClick={handleTopRated}>
+          <button
+            className="py-[7px] px-[10px] text-[1.2rem] text-[#fff] bg-[#E46F20] rounded-[8px] border-none hover:bg-[#016034]"
+            onClick={handleTopRated}
+          >
             Top Rated Restaurants
           </button>
         ) : (
-          <button className="py-[7px] px-[10px] text-[1.2rem] text-[#fff] bg-[#E46F20] rounded-[8px] border-none hover:bg-[#016034]" onClick={showAllRestaurant}>
+          <button
+            className="py-[7px] px-[10px] text-[1.2rem] text-[#fff] bg-[#E46F20] rounded-[8px] border-none hover:bg-[#016034]"
+            onClick={showAllRestaurant}
+          >
             Show All Restaurants
           </button>
         )}
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-x-[1.5%] gap-y-[25px]">
+      <div className="flex flex-wrap justify-center items-center gap-x-[20px] gap-y-[25px]">
         {filteredRestaurants.length !== 0 ? (
           filteredRestaurants.map((restaurant) => (
             <RestaurantCard key={restaurant?.info?.id} {...restaurant?.info} />
