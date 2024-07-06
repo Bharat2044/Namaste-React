@@ -34,7 +34,7 @@ body {
 /* create global variable with :root selector */
 :root {
   --header-bg-color: #ffffff;
-  --footer-bg-color: rgb(255, 255, 255);
+  --footer-bg-color: #ffffff;
   --body-bg-color: #e3e3e3;
   --text-color: #000;
   --green: #00ad1d;
