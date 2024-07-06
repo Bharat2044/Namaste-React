@@ -48,10 +48,11 @@ const RestaurantMenu = () => {
             <div className="flex items-center">
               <MdStarRate
                 className="w-[18px] h-[18px] rounded-[50%] p-[2px] mr-[5px]"
-                style={{
-                  backgroundColor:
-                    avgRatingString >= 4.0 ? "var(--green)" : "var(--red)",
-                }}
+                style={
+                  avgRatingString > 4.0
+                    ? { backgroundColor: "green" }
+                    : { backgroundColor: "red" }
+                }
               />
               <span>
                 {avgRatingString || 3.8} ({totalRatingsString || "1K+ ratings"})
@@ -90,12 +91,11 @@ const RestaurantMenu = () => {
                 <h4 className="flex font-semibold">
                   <MdStarRate
                     className="text-white w-[18px] h-[18px] rounded-[50%] p-[2px] mr-[5px]"
-                    style={{
-                      backgroundColor:
-                        ratings?.aggregatedRating?.rating >= 4.0
-                          ? "var(--green)"
-                          : "var(--red)",
-                    }}
+                    style={
+                      avgRatingString > 4.0
+                        ? { backgroundColor: "green" }
+                        : { backgroundColor: "red" }
+                    }
                   />
                   <span className="text-[#484747]">
                     {ratings?.aggregatedRating?.rating || 3.8} (
