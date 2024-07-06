@@ -32,8 +32,8 @@ const RestaurantCard = ({
               className="text-white w-[18px] h-[18px] rounded-[50%] p-[2px] mr-[3px]"
               style={
                 avgRatingString > 4.0
-                  ? { backgroundColor: "var(--green)" }
-                  : { backgroundColor: "var(--red)" }
+                  ? { backgroundColor: "green" }
+                  : { backgroundColor: "red" }
               }
             />
             <span>{avgRatingString}</span>
