@@ -141,13 +141,15 @@
 }
 
 .icon-button i {
-  color: #fff;
-  border-radius: 50%;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 2.6rem;
   width: 2.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  font-size: 1.4rem;
   line-height: 3rem;
   text-align: center;
   user-select: none;
