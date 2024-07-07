@@ -1,0 +1,32 @@
+/* Select all CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS for scroll-bar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  background-color: #e4e3e3;
+  font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
