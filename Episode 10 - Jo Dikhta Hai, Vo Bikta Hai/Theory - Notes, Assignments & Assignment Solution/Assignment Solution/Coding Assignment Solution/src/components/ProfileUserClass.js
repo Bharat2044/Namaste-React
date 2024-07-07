@@ -15,10 +15,10 @@ class ProfileUserClass extends Component {
         <a
           href={GiTHUB_LINK}
           target="_blank"
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center justify-center gap-[5px]"
         >
           <img
-            className="w-[180px] h-[180px] rounded-[50%] border-none cursor-pointer hover:scale-[1.02] transition-transform duration-300 ease-in-out"
+            className="w-[180px] h-[180px] rounded-[50%] border-none cursor-pointer hover:scale-[1.02] transition-transform duration-300 ease-in-out drop-shadow-md"
             src={avatar_url}
             alt={name}
             title={name}
