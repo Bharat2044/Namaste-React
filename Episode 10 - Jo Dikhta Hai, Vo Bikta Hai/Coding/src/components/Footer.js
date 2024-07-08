@@ -4,7 +4,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <div className="w-full flex items-center justify-center gap-[2px] p-[18px] mt-[30px] bg-[#ffffff] shadow-[-2px_7px_5px_-6px_#0000009c]">
+    <div className="w-full flex items-center justify-center gap-[2px] p-[18px] mt-[30px] bg-[#ffffff] shadow-[2px_7px_5px_6px_#0000009c]">
       Created By
       <span className="text-xl">❤️</span>
       <a className="text-purple-900 font-bold" href={LINKEDIN_LINK} target="_blank">
