@@ -251,14 +251,17 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📖 [_Theory Assignment Solution_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode10.netlify.app/)
+  - 🖥️ Notes
+    - 📟 [_Digital Notes of Live Class_](./Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2010%20-%20Jo%20Dikhta%20Hai,%20Vo%20Bikta%20Hai%20Notes.md) 
+
 
 
 ## 📚 [_Episode 11 - Data is the New Oil_](./Episode%2011%20-%20Data%20is%20the%20New%20Oil/)
 > **Handling data flow and DevTools exploration.**
 - 🧾 **Topics Covered:**
-  - Seperation of a React Application into UI-Layer and Data-Layer
   - Higher-Order Components
   - Controlled vs Uncontrolled Components
+  - Lifting the State Up
   - DevTools
   - Prop Driling
   - Context API in React
@@ -272,6 +275,8 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📖 [_Theory Assignment Solution_](./Episode%2011%20-%20Data%20is%20the%20New%20Oil/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2011%20-%20Data%20is%20the%20New%20Oil%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2011%20-%20Data%20is%20the%20New%20Oil/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode11.netlify.app/)
+  - 🖥️ Notes
+    - 📟 [_Digital Notes of Live Class_](./Episode%2011%20-%20Data%20is%20the%20New%20Oil/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2011%20-%20Data%20is%20the%20New%20Oil%20Notes.md) 
 
 
 
