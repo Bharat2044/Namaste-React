@@ -11,7 +11,7 @@ const RestaurantMenuCategory = ({ data, showMenuItems, setShowIndex }) => {
 
   return (
     <div>
-      <div className="w-full shadow-md px-[10px] bg-gray-50 rounded-md py-[10px] my-[30px]">
+      <div className="w-full shadow-md px-[20px] bg-gray-50 rounded-md py-[10px] my-[30px]">
         {/* Category Header */}
         <div
           className="flex justify-between items-center text-xl font-extrabold cursor-pointer"
