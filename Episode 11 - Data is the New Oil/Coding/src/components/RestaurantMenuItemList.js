@@ -44,7 +44,7 @@ const RestaurantMenuItemList = ({ items }) => {
                 src={IMG_CDN_URL + imageId}
                 alt={name}
               />
-              <button className="text-green-600 bg-white font-semibold rounded-md text-[1.2rem] px-[30px] py-[5px] cursor-pointer border-none relative bottom-[15px] hover:bg-gray-300 transition-all 0.3s">
+              <button className="text-green-600 bg-white font-semibold rounded-md text-[1.2rem] px-[30px] py-[5px] cursor-pointer border-none relative bottom-[15px] hover:bg-gray-300 hover:text-green-800 transition-all 0.3s">
                 ADD
               </button>
             </div>
