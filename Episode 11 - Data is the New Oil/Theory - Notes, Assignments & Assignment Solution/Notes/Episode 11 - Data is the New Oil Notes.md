@@ -1,4 +1,5 @@
 ## Ques): What is Higher-Order Components (HOCs)?
+
 **Ans.** Higher-Order Components (HOCs) is a function which takes a component and return a component.
 
 - Higher-Order Components (HOCs) are a pattern in React that allows you to reuse component logic.
@@ -79,6 +80,7 @@ In this example, `withLogging` is a Higher-Order Component that logs messages wh
 <br/>
 
 ## Ques): When de we use Higher-Order Components (HOCs)?
+
 **Ans.** Higher-Order Components (HOCs) are used in several scenarios in React development.
 
 Here are some common use cases:
@@ -263,6 +265,7 @@ function UncontrolledComponent() {
    - `Uncontrolled`: Form data is stored in the DOM.
 
 2. **Handling Input:**
+
    - `Controlled`: Input changes are handled by React via event handlers and state updates.
    - `Uncontrolled`: Input changes are handled by the DOM, and values are accessed via refs.
 
@@ -280,3 +283,75 @@ function UncontrolledComponent() {
 
 - **`Controlled Components`**: When you need more control over the form data, such as when implementing complex validation, dynamic forms, or handling data changes.
 - **`Uncontrolled Components`**: When you need simpler forms with minimal validation and do not require frequent state updates. This is suitable for scenarios where performance is critical and state management overhead is unnecessary.
+
+
+## Ques): What is props drilling?
+
+**Ans.** Props drilling is a concept in React development where data (props) are passed from a higher-level component down to deeply nested child components through multiple intermediary components. This is necessary when deeply nested components need to access the same piece of data or functionality, but none of the intermediary components need it. While props drilling allows for passing data, it can lead to less maintainable code and make components more tightly coupled, which complicates debugging and refactoring.
+
+### Example:
+
+Here’s a simple example to illustrate props drilling:
+
+```jsx
+function GrandParent() {
+  const value = "Hello from GrandParent";
+
+  return <Parent value={value} />;
+}
+
+function Parent({ value }) {
+  return <Child value={value} />;
+}
+
+function Child({ value }) {
+  return <div>{value}</div>;
+}
+```
+
+In this example, `value` is passed from the `GrandParent` component down to the `Child` component via the `Parent` component.
+
+### Issues with Props Drilling:
+
+1. **Boilerplate Code:** Repeatedly passing props through intermediary components adds boilerplate code.
+2. **Maintainability:** It becomes harder to maintain and understand the component structure, especially as the application grows.
+3. **Component Coupling:** Components become tightly coupled, reducing reusability.
+
+### Alternatives to Props Drilling:
+
+1. **Context API:** React’s Context API provides a way to share values between components without explicitly passing props through every level of the tree.
+2. **State Management Libraries:** Libraries like Redux, MobX, or Zustand can manage state across the application, avoiding the need for deep prop passing.
+
+### Context API Example:
+
+Using the Context API to avoid props drilling:
+
+```jsx
+import React, { createContext, useContext } from "react";
+
+const ValueContext = createContext();
+
+function GrandParent() {
+  const value = "Hello from GrandParent";
+
+  return (
+    <ValueContext.Provider value={value}>
+      <Parent />
+    </ValueContext.Provider>
+  );
+}
+
+function Parent() {
+  return <Child />;
+}
+
+function Child() {
+  const value = useContext(ValueContext);
+
+  return <div>{value}</div>;
+}
+```
+
+In this example, the `ValueContext` allows the `Child` component to access `value` directly, without passing it through the `Parent` component.
+
+## **Note:** We are using React Context API to avoid prop drilling
