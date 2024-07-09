@@ -1,5 +1,12 @@
 # _Episode 11 - Data is the New Oil_
 
+## Theory Assignment:
+- What is prop drilling?
+- What is lifting the state up?
+- What are Context Provider and Context Consumer?
+- If you don't pass a value to the provider does it take the default value?
+
+<br/>
 
 ## Ques): What is prop drilling?
 **Ans:** Prop drilling is a way sending props to a child component which is many components below the parent component.
