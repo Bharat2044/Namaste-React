@@ -1,3 +1,7 @@
+# _Episode 11 - Data is the New Oil_
+
+<br/>
+
 ## Ques): What is Higher-Order Components (HOCs)?
 
 **Ans.** Higher-Order Components (HOCs) is a function which takes a component and return a component.
@@ -283,7 +287,6 @@ function UncontrolledComponent() {
 
 - **`Controlled Components`**: When you need more control over the form data, such as when implementing complex validation, dynamic forms, or handling data changes.
 - **`Uncontrolled Components`**: When you need simpler forms with minimal validation and do not require frequent state updates. This is suitable for scenarios where performance is critical and state management overhead is unnecessary.
-
 
 ## Ques): What is props drilling?
 
