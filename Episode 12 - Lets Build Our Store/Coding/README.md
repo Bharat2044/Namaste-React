@@ -16,6 +16,7 @@
 
   - [Official Website - Redux TooLkit](https://redux-toolkit.js.org/)
   - [Official Website - React Redux](https://react-redux.js.org/)
+  - [Immer](https://immerjs.github.io/immer/)
   - [NPM - Redux TooLkit](https://www.npmjs.com/package/@reduxjs/toolkit?activeTab=readme)
   - [NPM - React Redux](https://www.npmjs.com/package/react-redux)
 
