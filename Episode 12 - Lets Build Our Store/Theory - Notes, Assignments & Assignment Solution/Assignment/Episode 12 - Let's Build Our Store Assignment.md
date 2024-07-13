@@ -19,3 +19,4 @@
 
 - [Redux](https://redux.js.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Immer](https://immerjs.github.io/immer/)
