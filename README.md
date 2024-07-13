@@ -278,24 +278,24 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📟 [_Digital Notes of Live Class_](./Episode%2011%20-%20Data%20is%20the%20New%20Oil/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2011%20-%20Data%20is%20the%20New%20Oil%20Notes.md) 
 
 
-## 📚 [_Episode 12 - Let's Build Our Store_](./Episode%2012%20-%20Let's%20Build%20Our%20Store/)
+## 📚 [_Episode 12 - Let's Build Our Store_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/)
 > **Implementing Redux toolkit for state management.**
 - 🧾 **Topics Covered:**
   - Redux Toolkit
   - React-Redux
   - Actions, Reducers
 - 💻 **Coding**
-  - 👨‍💻 [_Coding_](./Episode%2012%20-%20Let's%20Build%20Our%20Store/Coding/)
+  - 👨‍💻 [_Coding_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Coding/)
 - 📒 **Theory - Notes, Assignments & Assignment Solution**
   - 📘 Assignment
-    - 📝 [_PDF File_](./Episode%2012%20-%20Let's%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Assignment.jpg)
-    - 📝 [_Readme File_](./Episode%2012%20-%20Let's%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Assignment.md)
+    - 📝 [_PDF File_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Assignment.jpg)
+    - 📝 [_Readme File_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Assignment.md)
   - 📔 Assignment Solution
-    - 📖 [_Theory Assignment Solution_](./Episode%2012%20-%20Let's%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Theory%20Assignment%20Solution.md)
-    - 💻 [_Coding Assignment Solution_](./Episode%2012%20-%20Let's%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+    - 📖 [_Theory Assignment Solution_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Theory%20Assignment%20Solution.md)
+    - 💻 [_Coding Assignment Solution_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode12.netlify.app/)
   - 🖥️ Notes
-    - 📟 [_Digital Notes of Live Class_](./Episode%2012%20-%20Let's%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Notes.md) 
+    - 📟 [_Digital Notes of Live Class_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Notes.md) 
 
 
 
