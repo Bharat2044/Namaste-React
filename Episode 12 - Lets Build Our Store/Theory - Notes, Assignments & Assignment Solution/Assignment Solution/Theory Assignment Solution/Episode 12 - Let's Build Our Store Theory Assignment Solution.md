@@ -281,28 +281,29 @@ Here's an explanation of how selectors work in Redux Toolkit:
 1. `Defining Selectors with createSlice`: When we create a slice using createSlice, we can include selectors in the extraReducers field. These selectors can compute and return specific pieces of data from the state.
 
    ```jsx
-   import { createSlice } from '@reduxjs/toolkit';
+   import { createSlice } from "@reduxjs/toolkit";
 
    const mySlice = createSlice({
-   name: 'mySlice',
-   initialState: { dat**Ans.** [] },
-   reducers: {
+     name: "mySlice",
+     initialState: { data: [] },
+     reducers: {
        // ...reducers
-   },
-   extraReducers: (builder) => {
+     },
+     extraReducers: (builder) => {
        builder
-       .addCase(otherSliceAction, (state, action) => {
+         .addCase(otherSliceAction, (state, action) => {
            // logic for handling other slice's action
-       })
-       .addDefaultCase((state, action) => {
+         })
+         .addDefaultCase((state, action) => {
            // default logic for handling actions not handled by this slice
-       });
-   },
-   selectors: (state) => ({
+         });
+     },
+     selectors: (state) => ({
        // selector functions here
-       selectDat**Ans.** () => state.data,
-       selectFilteredDat**Ans.** (filter) => state.data.filter(item => item.includes(filter)),
-   }),
+       selectData: () => state.data,
+       selectFilteredData: (filter) =>
+         state.data.filter((item) => item.includes(filter)),
+     }),
    });
 
    export const { selectData, selectFilteredData } = mySlice.selectors;
@@ -311,18 +312,18 @@ Here's an explanation of how selectors work in Redux Toolkit:
 2. `Using Reselect with createSlice`: If we need more advanced memoization and composition of selectors, you can use the createSlice function along with the reselect library.
 
    ```jsx
-   import { createSlice, createSelector } from '@reduxjs/toolkit';
+   import { createSlice, createSelector } from "@reduxjs/toolkit";
 
    const mySlice = createSlice({
-   // ... other options
-   selectors: {
-       selectDat**Ans.** (state) => state.data,
-       selectFilteredDat**Ans.** createSelector(
-       (state) => state.data,
-       (_, filter) => filter,
-       (data, filter) => data.filter(item => item.includes(filter))
+     // ... other options
+     selectors: {
+       selectData: (state) => state.data,
+       selectFilteredData: createSelector(
+         (state) => state.data,
+         (_, filter) => filter,
+         (data, filter) => data.filter((item) => item.includes(filter))
        ),
-   },
+     },
    });
 
    export const { selectData, selectFilteredData } = mySlice.selectors;
@@ -436,42 +437,6 @@ createSlice(options);
    });
    ```
 
-### Output:
-
-The createSlice function returns an object with the following properties:
-
-1. `name (string)`: The name of the slice.
-2. `reducer (function)`: The reducer function generated based on the provided reducers and extraReducers. This is the function you use in your store configuration.
-3. `actions (object)`: An object containing the action creators for each defined reducer. These action creators can be directly used to dispatch actions.
-
-```js
-const { increment, decrement } = mySlice.actions;
-```
-
-These are the main configuration options for createSlice in Redux Toolkit. It provides a convenient way to define actions, reducers, and initial states for slices of our Redux store, reducing the amount of boilerplate code and promoting best practices.
-
-<br>
-
-## Ques): Explain createSlice and the configuration it takes.
-
-**Ans.** In React, `createSlice` is a function from the Redux Toolkit (RTK) library that helps to simplify the process of creating Redux reducers and actions. It is part of the effort to make Redux code more concise and easier to manage by reducing boilerplate.
-
-### `createSlice`
-
-The `createSlice` function accepts a configuration object and automatically generates action creators and action types that correspond to the reducers and state defined inside the slice. It also creates a slice reducer that can be used with the Redux store.
-
-### Configuration Object:
-
-The configuration object passed to `createSlice` typically includes the following properties:
-
-1. **name**: A string that serves as a prefix for the generated action types. It helps to identify the slice of the state in a modular way.
-
-2. **initialState**: The initial state of the slice. This can be any valid JavaScript value (object, array, number, string, etc.) that represents the initial state for that slice.
-
-3. **reducers**: An object where the keys are the names of the "case reducers" (functions that handle specific actions) and the values are the reducer functions. Each reducer function takes the current state and an action as arguments and returns the new state.
-
-4. **extraReducers**: An optional property for defining reducers that respond to actions defined outside of the slice. This is useful for handling actions created by other slices or libraries.
-
 ### Example Usage:
 
 Here’s an example of how to use `createSlice`:
@@ -538,3 +503,11 @@ export default store;
 ```
 
 This setup allows you to dispatch actions and manage state updates in a more concise and maintainable way compared to traditional Redux boilerplate code.
+
+<br/>
+
+## References:
+
+- [Redux](https://redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Immer](https://immerjs.github.io/immer/)
