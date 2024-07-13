@@ -1,14 +1,15 @@
 import { IMG_CDN_URL } from "../../../../public/common/constants";
-import { useDispatch } from "react-redux";
-import { addItem } from "../slices/cartSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem, removeItem } from "../slices/cartSlice";
 import { MdStarRate } from "react-icons/md";
 import Swal from "sweetalert2";
 
 const RestaurantMenuItemList = ({ items }) => {
   // Dispatch - It is a function that sends actions to the Redux store. - Hooks
   const dispatch = useDispatch();
+  const cardItems = useSelector((state) => state.cart.items);
 
-  const handeAddToCart = (item) => {
+  const handleAddToCart = (item) => {
     // Alert if yes then add to
     Swal.fire({
       title: "Do you want to Add Item to the Cart?",
@@ -71,8 +72,8 @@ const RestaurantMenuItemList = ({ items }) => {
                 alt={name}
               />
               <button
-                className="text-green-600 bg-white font-semibold rounded-md text-[1.2rem] px-[30px] py-[5px] cursor-pointer border-none relative bottom-[15px] hover:bg-gray-300 hover:text-green-800 transition-all 0.3s"
-                onClick={() => handeAddToCart(item)}
+                className="w-[100px] text-green-600 bg-white font-semibold rounded-md text-[1.2rem] px-[30px] py-[5px] cursor-pointer border-none relative bottom-[15px] hover:bg-gray-300 hover:text-green-800 transition-all 0.3s"
+                onClick={() => handleAddToCart(item)}
               >
                 ADD
               </button>
