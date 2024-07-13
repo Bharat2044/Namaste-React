@@ -294,8 +294,9 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📖 [_Theory Assignment Solution_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Theory%20Assignment%20Solution.md)
     - 💻 [_Coding Assignment Solution_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
       - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode12.netlify.app/)
-  - 🖥️ Notes
-    - 📟 [_Digital Notes of Live Class_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Notes.md) 
+  - 🖥️ Digital and Handwritten Notes
+    - 📟 [_Digital Notes of Live Class_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2012%20-%20Let's%20Build%20Our%20Store%20Digital%20Notes.md) 
+    - 📝 [_Hand Written Notes of Live Class_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2012%20-%20Let's%20Build%20Our%20Store%20HandWritten%20Notes.pdf)
 
 
 
