@@ -69,7 +69,7 @@ const Header = () => {
               <FaCartArrowDown />
               {cartItems.length > 0 && (
                 <span
-                  className="mb-3 ml-0.5 text-green-600"
+                  className="mb-[15px] text-white bg-red-600 w-[20px] h-[20px] text-center rounded-full"
                 >
                   {cartItems.length}
                 </span>
