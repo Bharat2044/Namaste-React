@@ -29,7 +29,9 @@ const Cart = () => {
 
   return (
     <div className="w-[60%] flex flex-col items-center justify-center">
-      <h1 className="text-2xl font-bold">Cart</h1>
+      <h1 className="w-full text-center text-2xl font-bold border-b-2 border-blue-600 mb-[30px]">
+        Cart
+      </h1>
 
       <button
         className="py-[3px] px-[10px] text-[1.2rem] text-[#fff] bg-[#E46F20] rounded-[8px] border-none hover:bg-[#016034]"
@@ -40,12 +42,12 @@ const Cart = () => {
 
       <div className="w-full shadow-md px-[20px] bg-gray-50 rounded-md py-[10px] my-[30px]">
         {
-            // If cart is empty
-            cartItems.length === 0 && (
-                <div className="text-center text-2xl font-bold">
-                Your cart is empty! Add items to your cart.
-                </div>
-            )
+          // If cart is empty
+          cartItems.length === 0 && (
+            <div className="text-center text-2xl font-bold">
+              Your cart is empty! Add items to your cart.
+            </div>
+          )
         }
         <RestaurantMenuItemList items={cartItems} />
       </div>
