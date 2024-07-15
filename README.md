@@ -299,6 +299,24 @@ This application should now be running on `localhost`. If you want to Fork repos
     - 📝 [_Hand Written Notes of Live Class_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2012%20-%20Let's%20Build%20Our%20Store%20HandWritten%20Notes.pdf)
 
 
+## 📚 [_Episode 13 - Time for Test_](./Episode%2012%20-%20Lets%20Build%20Our%20Store/)
+> **Comprehensive testing with Jest and React Testing Library.**
+- 🧾 **Topics Covered:**
+  - Jest, React Testing Library
+  - Unit Testing principles
+- 💻 **Coding**
+  - 👨‍💻 [_Coding_](./Episode%2013%20-%20Time%20for%20Test/Coding/)
+- 📒 **Theory - Notes, Assignments & Assignment Solution**
+  - 📘 Assignment
+    - 📝 [_PDF File_](./Episode%2013%20-%20Time%20for%20Test/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2013%20-%20Time%20for%20the%20Test%20Assignment.png)
+    - 📝 [_Readme File_](/Episode%2013%20-%20Time%20for%20Test/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment/Episode%2013%20-%20Time%20for%20the%20Test%20Assignment.md)
+  - 📔 Assignment Solution
+    - 📖 [_Theory Assignment Solution_](./Episode%2013%20-%20Time%20for%20Test/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Theory%20Assignment%20Solution/Episode%2013%20-%20Time%20for%20Test%20Theory%20Assignment%20Solutio.md)
+    - 💻 [_Coding Assignment Solution_](./Episode%2013%20-%20Time%20for%20Test/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Assignment%20Solution/Coding%20Assignment%20Solution/)
+      - **🔗** [_Live Link of Tasty Trails Food App Project_ 🤩](https://tasty-trails-episode12.netlify.app/)
+  - 🖥️ Digital and Handwritten Notes
+    - 📟 [_Digital Notes of Live Class_](./Episode%2013%20-%20Time%20for%20Test/Theory%20-%20Notes,%20Assignments%20&%20Assignment%20Solution/Notes/Episode%2013%20-%20Time%20for%20Test%20Notes.md) 
+
 
 <br />
 
