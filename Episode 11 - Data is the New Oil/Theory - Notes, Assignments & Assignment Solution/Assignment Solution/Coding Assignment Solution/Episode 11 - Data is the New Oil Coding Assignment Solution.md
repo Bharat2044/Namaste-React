@@ -1262,15 +1262,7 @@ class ProfileRepoClass extends Component {
       console.error("Error fetching repository data:", error);
     }
   }
-  // .profile-repo-items h3 {
-  //   font-size: 1.2rem;
-  //   font-weight: 600;
-  //   color: darkorange;
-  //   cursor: pointer;
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  // }
+  
   render() {
     const { followers } = this.props;
     const { name, description, forks_count, stargazers_count, html_url } =
