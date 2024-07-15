@@ -1260,7 +1260,6 @@ export default Footer;
 // Error.js
 import { Link, useRouteError } from "react-router-dom";
 import errorImage from "../../../../../../public/images/error-image.jpg";
-// import "../styles/Error.css";
 
 const Error = () => {
   const err = useRouteError();
