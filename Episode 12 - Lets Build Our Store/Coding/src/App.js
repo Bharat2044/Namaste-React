@@ -1,17 +1,17 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Header from "./src/components/Header";
-import Footer from "./src/components/Footer";
-import Contact from "./src/components/Contact";
-import Error from "./src/components/Error";
-import RestaurantMenu from "./src/components/RestaurantMenu";
-import Login from "./src/components/Login";
-import Cart from "./src/components/Cart";
-import { RestaurantShimmer } from "./src/components/Shimmer";
-import UserContext from "./src/context/UserContext";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Error from "./components/Error";
+import RestaurantMenu from "./components/RestaurantMenu";
+import Login from "./components/Login";
+import Cart from "./components/Cart";
+import { RestaurantShimmer } from "./components/Shimmer";
+import UserContext from "./context/UserContext";
 import { Provider } from "react-redux";
-import appStore from "./src/store/appStore";
+import appStore from "./store/appStore";
 import "./index.css";
 
 /**
@@ -25,8 +25,8 @@ import "./index.css";
  * On-Demand Loading
  */
 
-const Body = lazy(() => import("./src/components/Body"));
-const About = lazy(() => import("./src/components/About"));
+const Body = lazy(() => import("./components/Body"));
+const About = lazy(() => import("./components/About"));
 
 const App = () => {
   const [userName, setUserName] = useState();
