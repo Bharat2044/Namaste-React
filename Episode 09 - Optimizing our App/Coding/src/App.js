@@ -2,15 +2,15 @@ import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import "./index.css";
-import Header from "./src/components/Header";
+import Header from "./components/Header";
 // import Body from "./src/components/Body";
-import Footer from "./src/components/Footer";
+import Footer from "./components/Footer";
 // import About from "./src/components/About";
-import Contact from "./src/components/Contact";
-import Error from "./src/components/Error";
-import RestaurantMenu from "./src/components/RestaurantMenu";
-import Login from "./src/components/Login";
-import { RestaurantShimmer } from "./src/components/Shimmer";
+import Contact from "./components/Contact";
+import Error from "./components/Error";
+import RestaurantMenu from "./components/RestaurantMenu";
+import Login from "./components/Login";
+import { RestaurantShimmer } from "./components/Shimmer";
 // import Grocery from "./src/components/Grocery";
 
 /**
@@ -23,9 +23,9 @@ import { RestaurantShimmer } from "./src/components/Shimmer";
  * Suspense
  * On-Demand Loading
  */
-const Grocery = lazy(() => import("./src/components/Grocery"));
-const About = lazy(() => import("./src/components/About"));
-const Body = lazy(() => import("./src/components/Body"));
+const Grocery = lazy(() => import("./components/Grocery"));
+const About = lazy(() => import("./components/About"));
+const Body = lazy(() => import("./components/Body"));
 
 const App = () => {
   return (
