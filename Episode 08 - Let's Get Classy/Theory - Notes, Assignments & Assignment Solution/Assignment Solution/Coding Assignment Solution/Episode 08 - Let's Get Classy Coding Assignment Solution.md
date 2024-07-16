@@ -1919,13 +1919,13 @@ export default Footer;
 
 <br/>
 
-# Tasty TrailsLive Link Images
+# Tasty Trails Live Link Images
 <br/>
 
-![Tasty Trails App](./Live%20Link/liveLinkImage1.png) <br/>
-![Tasty Trails App](./Live%20Link/liveLinkImage2.png) <br/>
-![Tasty Trails App](./Live%20Link/liveLinkImage3.png) <br/>
-![Tasty Trails App](./Live%20Link/liveLinkImage4.png) <br/>
-![Tasty Trails App](./Live%20Link/liveLinkImage5.png) <br/>
-![Tasty Trails App](./Live%20Link/liveLinkImage6.png) <br/>
-![Tasty Trails App](./Live%20Link/liveLinkImage7.png) <br/>
+![Tasty Trails App](./Tasty%20Trails%20Live%20Link%20Images/liveLinkImage1.png) <br/>
+![Tasty Trails App](./Tasty%20Trails%20Live%20Link%20Images/liveLinkImage2.png) <br/>
+![Tasty Trails App](./Tasty%20Trails%20Live%20Link%20Images/liveLinkImage3.png) <br/>
+![Tasty Trails App](./Tasty%20Trails%20Live%20Link%20Images/liveLinkImage4.png) <br/>
+![Tasty Trails App](./Tasty%20Trails%20Live%20Link%20Images/liveLinkImage5.png) <br/>
+![Tasty Trails App](./Tasty%20Trails%20Live%20Link%20Images/liveLinkImage6.png) <br/>
+![Tasty Trails App](./Tasty%20Trails%20Live%20Link%20Images/liveLinkImage7.png) <br/>
