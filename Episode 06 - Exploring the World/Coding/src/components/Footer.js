@@ -1,4 +1,4 @@
-import {LINKEDIN_LINK} from "../../../../public/common/constants";
+import {LINKEDIN_LINK} from "../../../../../../../../public/common/constants";
 
 const Footer = () => {
   const year = new Date().getFullYear();

@@ -1,5 +1,5 @@
 import { MdStarRate } from "react-icons/md";
-import { IMG_CDN_URL } from "../../../../public/common/constants";
+import { IMG_CDN_URL } from "../../../../../../../../public/common/constants";
 
 const RestaurantCard = ({
   cloudinaryImageId,

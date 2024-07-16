@@ -4,7 +4,7 @@ import Shimmer from "./Shimmer";
 import {
   SWIGGY_API_URL,
   SWIGGY_REST_API_PATH,
-} from "../../../../public/common/constants";
+} from "../../../../../../../../public/common/constants";
 
 const Body = () => {
   const [restaurantList, setRestaurantList] = useState([]);
