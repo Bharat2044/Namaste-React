@@ -128,3 +128,5 @@ Tailwind CSS is a powerful tool for modern web development, promoting rapid deve
 ## Reference
 
 - [**Tailwind CSS**](https://tailwindcss.com/docs/installation)
+- [**Flowbite**]([https://tailwindcss.com/docs/installation](https://flowbite.com/) - This is for pre-built component by Tailwind CSS
+- [**Bootstrap**]([https://tailwindcss.com/docs/installation](https://getbootstrap.com/)
