@@ -19,6 +19,7 @@
   - [Immer](https://immerjs.github.io/immer/)
   - [NPM - Redux TooLkit](https://www.npmjs.com/package/@reduxjs/toolkit?activeTab=readme)
   - [NPM - React Redux](https://www.npmjs.com/package/react-redux)
+  - [Redux and Redux TooLkit Articles](https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/)
 
 - Build Our Store
 - Connect our store to our App
