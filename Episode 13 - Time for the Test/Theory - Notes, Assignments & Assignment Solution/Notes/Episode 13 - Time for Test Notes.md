@@ -117,7 +117,7 @@
 fileName.test.js
 fileName.test.ts
 fileName.spec.js
-fileName.spec.ts
+fileName.spec.ts 
 ```
 
 ## References
