@@ -68,7 +68,36 @@ The `{}` can embed a javascript expression or a variable or React element inside
         </>
   );
 ```
+#### Example 2:
+```js
+import React from 'react';
 
+function ListComponent() {
+  const items = ['Item 1', 'Item 2', 'Item 3'];
+
+  return (
+    <React.Fragment>
+      {items.map((item, index) => (
+        <div key={index}>{item}</div>
+      ))}
+    </React.Fragment>
+  );
+}
+
+// This would not work with the shorthand syntax:
+function ListComponent() {
+  const items = ['Item 1', 'Item 2', 'Item 3'];
+
+  return (
+    <>
+      {items.map((item, index) => (
+        <div key={index}>{item}</div>
+      ))}
+    </>
+  );
+}
+```
+In the first example, the `key` attribute is used within `<React.Fragment>`, necessary for efficiently rendering lists. The second example would not work correctly because the shorthand `<></>` does not support the key attribute.
 
 ## Ques): What is `Reconciliation` in React?
 **Ans:** `Reconciliation` is the process through which React updates the Browser DOM and makes React work faster. React use a `diffing algorithm` so that component updates are predictable and faster. React would first calculate the difference between the real DOM and the copy of DOM (Virtual DOM) when there's an update of components.<br/>
@@ -83,6 +112,8 @@ Because Fiber is asynchronous, React can:
 - Pause, resume, and restart rendering work on components as new updates come in
 - Reuse previously completed work and even abort it if not needed
 - Split work into chunks and prioritize tasks based on importance
+  
+Analogy: Think of Fiber as a smart scheduler that can manage multiple tasks efficiently, pausing and resuming them as needed, and prioritizing the most important ones to ensure everything runs smoothly.
 
 
 ## Ques): Why do we need `keys` in React?
