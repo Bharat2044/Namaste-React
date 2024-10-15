@@ -4,7 +4,9 @@
 **Ans:** JSX stands for JavaScript XML.<br/>
 JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods.<br/>
 JSX makes it easier to write and add HTML in React.<br/>
-JSX converts HTML tags into react elements.
+JSX converts HTML tags into react elements.<br/>
+JSX is a syntax extension that looks like HTML, but it's really just syntactic sugar for React.createElement(). JSX makes it easier to write and visualize the UI.<br/>
+
 
 ### Example 1 using JSX:
 ```js
@@ -41,8 +43,8 @@ function greeting(user) {
     ```
 - `text/ecmascript` : this value indicates that the script is following the `EcmaScript` standards.
 - `module`: This value tells the browser that the script is a module that can import or export other files or modules inside it.
-- `text/babel` : This value indicates that the script is a babel type and required bable to transpile it.
-- `text/typescript`: As the name suggest the script is written in `TypeScript`.
+- `text/babel` : This value indicates that the script is a babel type and requires babel to transpile it.
+- `text/typescript`: As the name suggests the script is written in `TypeScript`.
 
 ## Ques): `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in `JSX`.
 **Ans:** The Difference is stated below:
@@ -107,7 +109,7 @@ root.render(heading);
 - JSX => React.createElement => ReactElement(JS Object) => HTMLElement(render) => DOM(Browser)  
 - 
 - JSX is a syntactic sugar for React.createElement
-- JSX is not a valid JavaScript, it needs to be transpiled using Bable to React.createElement before it can be rendered in the browser using ReactDOM 
+- JSX is not a valid JavaScript, it needs to be transpiled using Babel to React.createElement before it can be rendered in the browser using ReactDOM 
 - JSX (transpiled before it can be rendered in the browser using ReactDOM) => Parcel (Bundler) => Babel (Transpiler) => React.createElement => ReactDOM
 - JSX is optional, you can write React without JSX
 - JSX is more readable and easy to write
@@ -197,3 +199,11 @@ root.render(<HeadingComponent />);
 ```
 
 ## Component Composition - multiple components can be composed together to create a new component (Component Composition)
+Component Composition refers to the process of nesting multiple components inside another component to create a larger, more complex component.<br/>
+
+### Recap:<br/>
+
+- Functional components are the **modern** way of writing components in React.<br/>
+- Class components are still used but less frequently since **Hooks** have made functional components more powerful.<br/>
+- Both types of components return React elements (JS objects that describe the UI) and accept `props`.<br/>
+- JSX is the preferred way of writing React elements, but it gets converted to `React.createElement()` under the hood.<br/>
